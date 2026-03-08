@@ -43,6 +43,15 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.103.239:443",
+      "type": "vless",
+      "server": "77.91.103.239",
+      "port": 443,
+      "uuid": "788b5907-f274-4aac-8f56-6ead96ecdd1e",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.101.201:443",
       "type": "vless",
       "server": "77.91.101.201",
@@ -77,14 +86,6 @@
       "uuid": "9e769ce1-34be-4e3f-b0a6-823f30eb8f69",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEC\uD83C\uDDEA Georgia - SS 77.91.72.13:443",
-      "type": "ss",
-      "server": "77.91.72.13",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
     }
   ],
   "proxy_groups": [
@@ -96,11 +97,11 @@
         "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.103.67:10004",
         "\uD83C\uDDEC\uD83C\uDDEA Georgia - SS 77.91.123.173:18332",
         "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.72.13:443",
+        "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.103.239:443",
         "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.101.201:443",
         "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.101.228:443",
         "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.103.216:2082",
-        "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.103.216:8443",
-        "\uD83C\uDDEC\uD83C\uDDEA Georgia - SS 77.91.72.13:443"
+        "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.103.216:8443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,

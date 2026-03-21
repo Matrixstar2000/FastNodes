@@ -17,17 +17,9 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF1\uD83C\uDDEE Liechtenstein - TROJAN 45.15.167.20:443",
-      "type": "trojan",
-      "server": "45.15.167.20",
-      "port": 443,
-      "password": "3ac6a6ca99f74941b1eaf892818e2ddb",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDF1\uD83C\uDDEE Liechtenstein - VLESS 45.15.168.106:8443",
+      "name": "\uD83C\uDDF1\uD83C\uDDEE Liechtenstein - VLESS 45.15.167.136:8443",
       "type": "vless",
-      "server": "45.15.168.106",
+      "server": "45.15.167.136",
       "port": 8443,
       "uuid": "5e1083b9-4d4f-50ef-93e7-6e966dfce1f9",
       "tls": true,
@@ -43,13 +35,21 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF1\uD83C\uDDEE Liechtenstein - VLESS 45.15.167.136:8443",
+      "name": "\uD83C\uDDF1\uD83C\uDDEE Liechtenstein - VLESS 45.15.168.106:8443",
       "type": "vless",
-      "server": "45.15.167.136",
+      "server": "45.15.168.106",
       "port": 8443,
       "uuid": "5e1083b9-4d4f-50ef-93e7-6e966dfce1f9",
       "tls": true,
       "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF1\uD83C\uDDEE Liechtenstein - TROJAN 45.15.167.20:443",
+      "type": "trojan",
+      "server": "45.15.167.20",
+      "port": 443,
+      "password": "3ac6a6ca99f74941b1eaf892818e2ddb",
+      "tls": true
     }
   ],
   "proxy_groups": [
@@ -58,10 +58,10 @@
       "type": "url-test",
       "proxies": [
         "\uD83C\uDDF1\uD83C\uDDEE Liechtenstein - VLESS 45.15.167.13:443",
-        "\uD83C\uDDF1\uD83C\uDDEE Liechtenstein - TROJAN 45.15.167.20:443",
-        "\uD83C\uDDF1\uD83C\uDDEE Liechtenstein - VLESS 45.15.168.106:8443",
+        "\uD83C\uDDF1\uD83C\uDDEE Liechtenstein - VLESS 45.15.167.136:8443",
         "\uD83C\uDDF1\uD83C\uDDEE Liechtenstein - VLESS 45.15.167.189:8443",
-        "\uD83C\uDDF1\uD83C\uDDEE Liechtenstein - VLESS 45.15.167.136:8443"
+        "\uD83C\uDDF1\uD83C\uDDEE Liechtenstein - VLESS 45.15.168.106:8443",
+        "\uD83C\uDDF1\uD83C\uDDEE Liechtenstein - TROJAN 45.15.167.20:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,

@@ -21,16 +21,7 @@
       "type": "vless",
       "server": "78.159.131.5",
       "port": 443,
-      "uuid": "dd9c0ccd-1aeb-4f2d-9ab1-5f6996518c77",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 78.159.131.76:443",
-      "type": "vless",
-      "server": "78.159.131.76",
-      "port": 443,
-      "uuid": "8741e284-6199-4a8e-ace7-c9625b68ea64",
+      "uuid": "6beee13a-f356-4a51-8e65-75f776508e8f",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -40,6 +31,15 @@
       "server": "78.159.131.210",
       "port": 443,
       "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 78.159.131.76:443",
+      "type": "vless",
+      "server": "78.159.131.76",
+      "port": 443,
+      "uuid": "dd9c0ccd-1aeb-4f2d-9ab1-5f6996518c77",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -158,15 +158,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 185.177.238.3:443",
-      "type": "vless",
-      "server": "185.177.238.3",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 185.177.238.40:443",
       "type": "vless",
       "server": "185.177.238.40",
@@ -211,6 +202,15 @@
       "tls": true
     },
     {
+      "name": "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 185.177.238.3:443",
+      "type": "vless",
+      "server": "185.177.238.3",
+      "port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 87.121.162.241:443",
       "type": "vless",
       "server": "87.121.162.241",
@@ -245,13 +245,22 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 144.31.131.32:8443",
+      "name": "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 78.159.131.16:443",
       "type": "vless",
-      "server": "144.31.131.32",
-      "port": 8443,
-      "uuid": "2dd1a15d-1426-413a-a3b8-a645788bc844",
+      "server": "78.159.131.16",
+      "port": 443,
+      "uuid": "e4f5077b-3628-450c-92f9-b129b8a641a7",
       "tls": true,
       "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 144.31.131.42:443",
+      "type": "vless",
+      "server": "144.31.131.42",
+      "port": 443,
+      "uuid": "62ad5a48-f452-4868-b7eb-d27df9b3d723",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDE6\uD83C\uDDF1 Albania - SS 78.159.131.5:443",
@@ -277,8 +286,8 @@
       "proxies": [
         "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 45.15.170.237:80",
         "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 78.159.131.5:443",
-        "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 78.159.131.76:443",
         "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 78.159.131.210:443",
+        "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 78.159.131.76:443",
         "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 45.15.170.80:28495",
         "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 45.15.170.183:443",
         "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 78.159.131.51:443",
@@ -292,17 +301,18 @@
         "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 185.177.238.18:2083",
         "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 185.177.238.99:443",
         "\uD83C\uDDE6\uD83C\uDDF1 Albania - SS 87.121.162.249:443",
-        "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 185.177.238.3:443",
         "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 185.177.238.40:443",
         "\uD83C\uDDE6\uD83C\uDDF1 Albania - SS 31.171.153.181:989",
         "\uD83C\uDDE6\uD83C\uDDF1 Albania - SS 31.171.153.178:989",
         "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 78.159.131.107:443",
         "\uD83C\uDDE6\uD83C\uDDF1 Albania - VMESS 45.15.170.237:80",
+        "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 185.177.238.3:443",
         "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 87.121.162.241:443",
         "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 78.159.131.160:443",
         "\uD83C\uDDE6\uD83C\uDDF1 Albania - SS 45.15.170.237:80",
         "\uD83C\uDDE6\uD83C\uDDF1 Albania - SS 45.15.170.183:443",
-        "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 144.31.131.32:8443",
+        "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 78.159.131.16:443",
+        "\uD83C\uDDE6\uD83C\uDDF1 Albania - VLESS 144.31.131.42:443",
         "\uD83C\uDDE6\uD83C\uDDF1 Albania - SS 78.159.131.5:443",
         "\uD83C\uDDE6\uD83C\uDDF1 Albania - SS 78.159.131.23:443"
       ],

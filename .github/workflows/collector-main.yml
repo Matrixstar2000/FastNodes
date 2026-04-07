@@ -294,7 +294,7 @@ jobs:
           git commit -m "Fresh proxies + GeoIP + blacklist + Best Results - $(date +'%Y-%m-%d %H:%M UTC') - $(wc -l < sub/everything.txt) proxies" --allow-empty || echo "Nothing new to commit"
           
           git push origin main || echo "Push failed"
-      - name: 生成5国Top10 + base64 + 推送至stargate仓库
+         - name: 生成5国Top10 + 重命名 + base64 + 推送至stargate仓库
         run: |
           echo "=== 只保留US/JP/SG/KR/HK 每个国家Top10 ==="
           mkdir -p temp
@@ -306,6 +306,28 @@ jobs:
             fi
           done
           
+          echo "=== 重命名为 美国01、美国02... ==="
+          > temp/renamed.txt
+          declare -A counter
+          for country in US JP SG KR HK; do
+            case $country in
+              US) name="美国" ;;
+              JP) name="日本" ;;
+              SG) name="新加坡" ;;
+              KR) name="韩国" ;;
+              HK) name="香港" ;;
+            esac
+            idx=1
+            while read -r line; do
+              # 去掉旧名称（#后面的部分），加上新名称
+              clean="${line%%#*}"
+              new_name="${name}$(printf "%02d" $idx)"
+              echo "${clean}#${new_name}" >> temp/renamed.txt
+              idx=$((idx+1))
+            done < <(head -n 10 "sub/countries/${country}.txt" 2>/dev/null || true)
+          done
+          mv temp/renamed.txt temp/proxies.txt
+          
           echo "=== 转成base64 ==="
           base64 -w0 temp/proxies.txt > moon.ai
           
@@ -316,6 +338,6 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           git add moon.ai
-          git commit -m "Update moon.ai - 5国Top10迭代 ($(date '+%Y-%m-%d %H:%M'))" || echo "No changes"
+          git commit -m "Update moon.ai - 5国Top10重命名 ($(date '+%Y-%m-%d %H:%M'))" || echo "No changes"
           git push
-          echo "✅ moon.ai 已成功推送至 stargate 仓库！"
+          echo "✅ moon.ai 已成功推送至 stargate 仓库！（节点已重命名为美国01等）"

@@ -292,3 +292,28 @@ jobs:
           git commit -m "Fresh proxies + GeoIP + blacklist + Best Results - $(date +'%Y-%m-%d %H:%M UTC') - $(wc -l < sub/everything.txt) proxies" --allow-empty || echo "Nothing new to commit"
           
           git push origin main || echo "Push failed"
+      - name: 生成5国Top10 + base64 + 推送至stargate仓库
+        run: |
+          echo "=== 只保留US/JP/SG/KR/HK 每个国家Top10 ==="
+          mkdir -p temp
+          > temp/proxies.txt
+          for country in US JP SG KR HK; do
+            if [ -f "sub/countries/${country}.txt" ]; then
+              echo "处理 $country (前10名)..."
+              head -n 10 "sub/countries/${country}.txt" >> temp/proxies.txt
+            fi
+          done
+          
+          echo "=== 转成base64 ==="
+          base64 -w0 temp/proxies.txt > moon.ai
+          
+          echo "=== 推送至你的stargate仓库 ==="
+          git clone https://${{ secrets.STARGATE_PAT }}@github.com/Matrixstar2000/stargate.git stargate-repo
+          cp moon.ai stargate-repo/moon.ai
+          cd stargate-repo
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add moon.ai
+          git commit -m "Update moon.ai - 5国Top10迭代 ($(date '+%Y-%m-%d %H:%M'))" || echo "No changes"
+          git push
+          echo "✅ moon.ai 已成功推送至 stargate 仓库！"

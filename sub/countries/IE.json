@@ -116,15 +116,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 34.251.70.20:443",
-      "type": "vless",
-      "server": "34.251.70.20",
-      "port": 443,
-      "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 34.244.26.19:443",
       "type": "vless",
       "server": "34.244.26.19",
@@ -236,39 +227,21 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 18.200.160.50:22222",
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 85.159.229.164:8443",
       "type": "vless",
-      "server": "18.200.160.50",
-      "port": 22222,
-      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+      "server": "85.159.229.164",
+      "port": 8443,
+      "uuid": "2dd1a15d-1426-413a-a3b8-a645788bc844",
       "tls": true,
-      "flow": ""
+      "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 63.32.223.131:22222",
-      "type": "vless",
-      "server": "63.32.223.131",
-      "port": 22222,
-      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 99.80.179.36:22222",
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 34.249.40.10:22222",
       "type": "trojan",
-      "server": "99.80.179.36",
+      "server": "34.249.40.10",
       "port": 22222,
-      "password": "telegram-id-privatevpns",
+      "password": "telegram-id-directvpn",
       "tls": true
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 99.80.12.100:22222",
-      "type": "vless",
-      "server": "99.80.12.100",
-      "port": 22222,
-      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-      "tls": true,
-      "flow": ""
     },
     {
       "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 52.208.136.122:22222",
@@ -287,19 +260,11 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 108.128.136.153:22222",
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 99.80.179.36:22222",
       "type": "trojan",
-      "server": "108.128.136.153",
+      "server": "99.80.179.36",
       "port": 22222,
       "password": "telegram-id-privatevpns",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 52.19.6.148:22222",
-      "type": "trojan",
-      "server": "52.19.6.148",
-      "port": 22222,
-      "password": "telegram-id-directvpn",
       "tls": true
     },
     {
@@ -312,13 +277,21 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 20.67.254.104:443",
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 63.32.223.131:22222",
       "type": "vless",
-      "server": "20.67.254.104",
-      "port": 443,
-      "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
+      "server": "63.32.223.131",
+      "port": 22222,
+      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "tls": true,
       "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.72.5.29:22222",
+      "type": "trojan",
+      "server": "54.72.5.29",
+      "port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": true
     },
     {
       "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.247.127.29:22222",
@@ -329,9 +302,51 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.72.5.29:22222",
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 52.19.6.148:22222",
       "type": "trojan",
-      "server": "54.72.5.29",
+      "server": "52.19.6.148",
+      "port": 22222,
+      "password": "telegram-id-directvpn",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 20.67.254.104:443",
+      "type": "vless",
+      "server": "20.67.254.104",
+      "port": 443,
+      "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 3.252.69.131:22222",
+      "type": "trojan",
+      "server": "3.252.69.131",
+      "port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 108.128.136.153:22222",
+      "type": "trojan",
+      "server": "108.128.136.153",
+      "port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 99.80.12.100:22222",
+      "type": "vless",
+      "server": "99.80.12.100",
+      "port": 22222,
+      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 34.242.4.159:22222",
+      "type": "trojan",
+      "server": "34.242.4.159",
       "port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": true
@@ -345,52 +360,20 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 34.242.4.159:22222",
-      "type": "trojan",
-      "server": "34.242.4.159",
-      "port": 22222,
-      "password": "telegram-id-privatevpns",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 3.252.69.131:22222",
-      "type": "trojan",
-      "server": "3.252.69.131",
-      "port": 22222,
-      "password": "telegram-id-privatevpns",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 85.159.229.164:8443",
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 18.200.160.50:22222",
       "type": "vless",
-      "server": "85.159.229.164",
-      "port": 8443,
-      "uuid": "2dd1a15d-1426-413a-a3b8-a645788bc844",
+      "server": "18.200.160.50",
+      "port": 22222,
+      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "tls": true,
-      "flow": "xtls-rprx-vision"
+      "flow": ""
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 34.249.40.10:22222",
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 3.253.67.209:22222",
       "type": "trojan",
-      "server": "34.249.40.10",
+      "server": "3.253.67.209",
       "port": 22222,
-      "password": "telegram-id-directvpn",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 146.70.48.53:50168",
-      "type": "ss",
-      "server": "146.70.48.53",
-      "port": 50168,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 34.253.231.7:22222",
-      "type": "trojan",
-      "server": "34.253.231.7",
-      "port": 22222,
-      "password": "telegram-id-directvpn",
+      "password": "telegram-id-privatevpns",
       "tls": true
     },
     {
@@ -402,11 +385,11 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 3.253.67.209:22222",
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 34.253.231.7:22222",
       "type": "trojan",
-      "server": "3.253.67.209",
+      "server": "34.253.231.7",
       "port": 22222,
-      "password": "telegram-id-privatevpns",
+      "password": "telegram-id-directvpn",
       "tls": true
     },
     {
@@ -414,6 +397,22 @@
       "type": "ss",
       "server": "23.92.127.133",
       "port": 989,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.78.157.126:22222",
+      "type": "trojan",
+      "server": "54.78.157.126",
+      "port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 146.70.48.53:50168",
+      "type": "ss",
+      "server": "146.70.48.53",
+      "port": 50168,
       "cipher": "auto",
       "password": ""
     },
@@ -525,14 +524,6 @@
       "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.72.120.247:22222",
       "type": "trojan",
       "server": "54.72.120.247",
-      "port": 22222,
-      "password": "telegram-id-privatevpns",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.78.157.126:22222",
-      "type": "trojan",
-      "server": "54.78.157.126",
       "port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": true
@@ -711,7 +702,6 @@
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 63.35.78.25:22222",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 54.76.133.122:22222",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 54.154.80.212:22222",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 34.251.70.20:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 34.244.26.19:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 40.69.68.162:53232",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 54.247.223.103:443",
@@ -725,28 +715,29 @@
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 54.216.127.183:27775",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 34.252.80.15:27775",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 192.210.183.136:36678",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 18.200.160.50:22222",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 63.32.223.131:22222",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 99.80.179.36:22222",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 99.80.12.100:22222",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 52.208.136.122:22222",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.77.76.64:22222",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 108.128.136.153:22222",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 52.19.6.148:22222",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 45.141.234.159:30724",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 20.67.254.104:443",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.247.127.29:22222",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.72.5.29:22222",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 52.214.235.82:22222",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 34.242.4.159:22222",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 3.252.69.131:22222",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 85.159.229.164:8443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 34.249.40.10:22222",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 146.70.48.53:50168",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 34.253.231.7:22222",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 3.249.15.72:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 52.208.136.122:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.77.76.64:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 99.80.179.36:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 45.141.234.159:30724",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 63.32.223.131:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.72.5.29:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.247.127.29:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 52.19.6.148:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 20.67.254.104:443",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 3.252.69.131:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 108.128.136.153:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 99.80.12.100:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 34.242.4.159:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 52.214.235.82:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 18.200.160.50:22222",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 3.253.67.209:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 3.249.15.72:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 34.253.231.7:22222",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 23.92.127.133:989",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.78.157.126:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 146.70.48.53:50168",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 40.115.121.217:25579",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 52.211.121.231:63371",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 23.92.127.134:989",
@@ -761,7 +752,6 @@
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.171.7.212:22222",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.171.81.189:22222",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.72.120.247:22222",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.78.157.126:22222",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 3.249.170.171:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 34.247.254.247:50768",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 85.159.229.233:443",

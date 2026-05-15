@@ -8,6 +8,16 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VMESS 94.131.105.175:80",
+      "type": "vmess",
+      "server": "94.131.105.175",
+      "port": 80,
+      "uuid": "",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true
+    },
+    {
       "name": "\uD83C\uDDEF\uD83C\uDDF5 Japan - VMESS 192.243.124.25:27763",
       "type": "vmess",
       "server": "192.243.124.25",
@@ -392,16 +402,6 @@
       "type": "vmess",
       "server": "198.23.174.168",
       "port": 20086,
-      "uuid": "",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDF7 Iran - VMESS 185.143.233.5:2083",
-      "type": "vmess",
-      "server": "185.143.233.5",
-      "port": 2083,
       "uuid": "",
       "alterId": 0,
       "cipher": "auto",
@@ -3353,6 +3353,7 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VMESS 94.131.105.175:80",
         "\uD83C\uDDEF\uD83C\uDDF5 Japan - VMESS 192.243.124.25:27763",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VMESS 45.192.101.134:9527",
         "\uD83C\uDF0D Unknown - VMESS 108.162.195.202:443",
@@ -3392,7 +3393,6 @@
         "\uD83C\uDDFA\uD83C\uDDF8 United States - VMESS 38.92.10.226:45979",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - VMESS 51.79.102.253:80",
         "\uD83C\uDDFA\uD83C\uDDF8 United States - VMESS 198.23.174.168:20086",
-        "\uD83C\uDDEE\uD83C\uDDF7 Iran - VMESS 185.143.233.5:2083",
         "\uD83C\uDDEE\uD83C\uDDF7 Iran - VMESS 185.143.235.20:2086",
         "\uD83C\uDDEE\uD83C\uDDF7 Iran - VMESS 45.82.136.188:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VMESS 65.109.204.63:36799",

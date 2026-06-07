@@ -8,6 +8,15 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.64:443",
+      "type": "vless",
+      "server": "62.72.166.64",
+      "port": 443,
+      "uuid": "74aed513-ec0f-441c-9f9a-e569a7e47280",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.67:2096",
       "type": "vless",
       "server": "62.72.166.67",
@@ -118,6 +127,7 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.64:443",
         "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.67:2096",
         "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.251:8880",
         "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.143:8880",

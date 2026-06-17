@@ -8,24 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.174.138.220:443",
-      "type": "vless",
-      "server": "185.174.138.220",
-      "port": 443,
-      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.212.129.155:443",
-      "type": "vless",
-      "server": "185.212.129.155",
-      "port": 443,
-      "uuid": "5c076e5a-8388-4892-adcc-e7b372070769",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 45.133.247.114:443",
       "type": "vless",
       "server": "45.133.247.114",
@@ -134,6 +116,15 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.174.138.220:443",
+      "type": "vless",
+      "server": "185.174.138.220",
+      "port": 443,
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.174.138.20:8880",
       "type": "vless",
       "server": "185.174.138.20",
@@ -157,6 +148,15 @@
       "server": "185.174.138.186",
       "port": 8880,
       "uuid": "583ceab3-4022-4553-9158-9bedc625ad4e",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.212.129.155:443",
+      "type": "vless",
+      "server": "185.212.129.155",
+      "port": 443,
+      "uuid": "5c076e5a-8388-4892-adcc-e7b372070769",
       "tls": true,
       "flow": ""
     },
@@ -221,9 +221,42 @@
       "tls": true
     },
     {
+      "name": "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - TROJAN 185.174.138.209:443",
+      "type": "trojan",
+      "server": "185.174.138.209",
+      "port": 443,
+      "password": "maradona_vpn",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.174.138.170:443",
+      "type": "vless",
+      "server": "185.174.138.170",
+      "port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - SS 185.212.129.155:443",
+      "type": "ss",
+      "server": "185.212.129.155",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - SS 185.174.138.217:443",
       "type": "ss",
       "server": "185.174.138.217",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - SS 185.174.138.220:443",
+      "type": "ss",
+      "server": "185.174.138.220",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -234,8 +267,6 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.174.138.220:443",
-        "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.212.129.155:443",
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 45.133.247.114:443",
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 45.133.247.151:443",
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.174.138.141:8443",
@@ -248,9 +279,11 @@
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 45.83.122.71:25841",
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 45.138.74.173:20601",
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.174.138.217:443",
+        "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.174.138.220:443",
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.174.138.20:8880",
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.174.138.6:80",
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.174.138.186:8880",
+        "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.212.129.155:443",
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 45.83.122.71:10677",
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 203.32.121.53:2096",
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.174.138.168:8880",
@@ -258,7 +291,11 @@
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - SS 45.138.74.160:7261",
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - SS 91.103.253.151:19057",
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - TROJAN 185.174.138.239:443",
-        "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - SS 185.174.138.217:443"
+        "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - TROJAN 185.174.138.209:443",
+        "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.174.138.170:443",
+        "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - SS 185.212.129.155:443",
+        "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - SS 185.174.138.217:443",
+        "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - SS 185.174.138.220:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,

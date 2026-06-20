@@ -8,16 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VMESS 65.109.221.245:33366",
-      "type": "vmess",
-      "server": "65.109.221.245",
-      "port": 33366,
-      "uuid": "",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": true
-    },
-    {
       "name": "\uD83C\uDDEF\uD83C\uDDF5 Japan - VMESS 153.121.73.175:49803",
       "type": "vmess",
       "server": "153.121.73.175",
@@ -258,6 +248,16 @@
       "tls": true
     },
     {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VMESS 65.109.221.245:33366",
+      "type": "vmess",
+      "server": "65.109.221.245",
+      "port": 33366,
+      "uuid": "",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true
+    },
+    {
       "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - VMESS 15.235.41.200:80",
       "type": "vmess",
       "server": "15.235.41.200",
@@ -308,29 +308,9 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDF7 France - VMESS 13.39.232.152:22224",
+      "name": "\uD83C\uDDFA\uD83C\uDDF8 United States - VMESS 91.209.228.122:443",
       "type": "vmess",
-      "server": "13.39.232.152",
-      "port": 22224,
-      "uuid": "",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDF0D Unknown - VMESS 162.159.46.151:2053",
-      "type": "vmess",
-      "server": "162.159.46.151",
-      "port": 2053,
-      "uuid": "",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDF0D Unknown - VMESS 104.18.155.229:443",
-      "type": "vmess",
-      "server": "104.18.155.229",
+      "server": "91.209.228.122",
       "port": 443,
       "uuid": "",
       "alterId": 0,
@@ -338,10 +318,10 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDFA\uD83C\uDDF8 United States - VMESS 167.82.101.251:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDF4 Romania - VMESS 77.74.123.168:8443",
       "type": "vmess",
-      "server": "167.82.101.251",
-      "port": 443,
+      "server": "77.74.123.168",
+      "port": 8443,
       "uuid": "",
       "alterId": 0,
       "cipher": "auto",
@@ -362,6 +342,16 @@
       "type": "vmess",
       "server": "154.197.121.247",
       "port": 8880,
+      "uuid": "",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDF0D Unknown - VMESS 104.16.72.251:443",
+      "type": "vmess",
+      "server": "104.16.72.251",
+      "port": 443,
       "uuid": "",
       "alterId": 0,
       "cipher": "auto",
@@ -3333,7 +3323,6 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VMESS 65.109.221.245:33366",
         "\uD83C\uDDEF\uD83C\uDDF5 Japan - VMESS 153.121.73.175:49803",
         "\uD83C\uDDE9\uD83C\uDDEA Germany - VMESS 82.198.246.250:180",
         "\uD83C\uDDE9\uD83C\uDDEA Germany - VMESS 82.198.246.233:180",
@@ -3358,17 +3347,17 @@
         "\uD83C\uDDFA\uD83C\uDDF8 United States - VMESS 51.81.202.62:80",
         "\uD83C\uDDF8\uD83C\uDDEC Singapore - VMESS 143.198.219.182:80",
         "\uD83C\uDDF3\uD83C\uDDF1 The Netherlands - VMESS 51.136.162.7:11439",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VMESS 65.109.221.245:33366",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - VMESS 15.235.41.200:80",
         "\uD83C\uDDFA\uD83C\uDDF8 United States - VMESS 38.92.10.226:45979",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - VMESS 51.79.102.253:80",
         "\uD83C\uDDFA\uD83C\uDDF8 United States - VMESS 198.23.174.168:20086",
         "\uD83C\uDDFA\uD83C\uDDF8 United States - VMESS 209.126.84.189:443",
-        "\uD83C\uDDEB\uD83C\uDDF7 France - VMESS 13.39.232.152:22224",
-        "\uD83C\uDF0D Unknown - VMESS 162.159.46.151:2053",
-        "\uD83C\uDF0D Unknown - VMESS 104.18.155.229:443",
-        "\uD83C\uDDFA\uD83C\uDDF8 United States - VMESS 167.82.101.251:443",
+        "\uD83C\uDDFA\uD83C\uDDF8 United States - VMESS 91.209.228.122:443",
+        "\uD83C\uDDF7\uD83C\uDDF4 Romania - VMESS 77.74.123.168:8443",
         "\uD83C\uDF0D Unknown - VMESS 141.101.113.247:8880",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VMESS 154.197.121.247:8880",
+        "\uD83C\uDF0D Unknown - VMESS 104.16.72.251:443",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - VMESS 102.177.176.213:8880",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VMESS 185.148.106.63:8880",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VMESS 65.109.204.63:36799",

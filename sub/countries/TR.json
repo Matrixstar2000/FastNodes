@@ -3668,15 +3668,6 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 38.60.208.206:443",
-      "type": "vless",
-      "server": "38.60.208.206",
-      "port": 443,
-      "uuid": "217735a6-f5c3-4e43-bed0-a1d005546a1a",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 5.188.36.93:31348",
       "type": "ss",
       "server": "5.188.36.93",
@@ -3693,20 +3684,20 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 144.225.65.214:666",
+      "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 77.83.245.42:443",
       "type": "vless",
-      "server": "144.225.65.214",
-      "port": 666,
-      "uuid": "vpn_kurdnet",
+      "server": "77.83.245.42",
+      "port": 443,
+      "uuid": "06d44c57-8e1a-41f4-b9c4-65d35869e078",
       "tls": true,
-      "flow": ""
+      "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 185.226.92.185:443",
+      "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 38.60.208.206:443",
       "type": "vless",
-      "server": "185.226.92.185",
+      "server": "38.60.208.206",
       "port": 443,
-      "uuid": "2ef04be6-7afc-454d-8723-8719942a842e",
+      "uuid": "217735a6-f5c3-4e43-bed0-a1d005546a1a",
       "tls": true,
       "flow": ""
     },
@@ -3861,6 +3852,15 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 144.225.65.214:666",
+      "type": "vless",
+      "server": "144.225.65.214",
+      "port": 666,
+      "uuid": "vpn_kurdnet",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 141.98.118.70:443",
       "type": "ss",
       "server": "141.98.118.70",
@@ -3869,10 +3869,10 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 185.123.101.64:2376",
+      "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 62.133.63.202:13868",
       "type": "ss",
-      "server": "185.123.101.64",
-      "port": 2376,
+      "server": "62.133.63.202",
+      "port": 13868,
       "cipher": "auto",
       "password": ""
     },
@@ -4237,6 +4237,14 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 185.123.101.64:2376",
+      "type": "ss",
+      "server": "185.123.101.64",
+      "port": 2376,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 212.68.55.11:18760",
       "type": "ss",
       "server": "212.68.55.11",
@@ -4308,6 +4316,15 @@
       "server": "87.120.106.162",
       "port": 52077,
       "uuid": "a6d7e54f-3600-4f9d-bac0-a421f4360d2e",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 185.226.92.185:443",
+      "type": "vless",
+      "server": "185.226.92.185",
+      "port": 443,
+      "uuid": "2ef04be6-7afc-454d-8723-8719942a842e",
       "tls": true,
       "flow": ""
     },
@@ -5262,6 +5279,7 @@
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 212.108.107.80:31207",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 62.60.233.226:62763",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 104.22.51.162:8880",
+        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - HYSTERIA2 143.246.136.159:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 38.180.105.12:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 2.59.117.59:2094",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 185.123.101.241:990",
@@ -5270,12 +5288,11 @@
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 62.60.233.220:18685",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 5.188.168.230:31348",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - TROJAN 144.225.65.181:443",
-        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 38.60.208.206:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 5.188.36.93:31348",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - TROJAN 207.211.215.169:43118",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - HYSTERIA2 167.104.219.217:443",
-        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 144.225.65.214:666",
-        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 185.226.92.185:443",
+        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 77.83.245.42:443",
+        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 38.60.208.206:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 185.226.93.24:2083",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 144.225.65.214:37001",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 144.225.65.214:37003",
@@ -5292,12 +5309,11 @@
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 5.188.36.6:4619",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 139.28.241.187:8443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 38.180.113.194:8119",
-        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - HYSTERIA2 143.246.136.159:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 62.133.63.169:37096",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 93.114.98.239:2087",
+        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 144.225.65.214:666",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 141.98.118.70:443",
-        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - HYSTERIA2 64.49.15.76:443",
-        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 185.123.101.64:2376",
+        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 62.133.63.202:13868",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 143.246.136.252:8999",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 212.64.193.67:58722",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 87.120.106.226:29267",
@@ -5343,6 +5359,7 @@
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 83.217.9.210:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 185.123.101.241:989",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 62.60.233.72:33155",
+        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 185.123.101.64:2376",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 212.68.55.11:18760",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 194.15.52.108:30676",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 193.31.117.25:8080",
@@ -5352,6 +5369,7 @@
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 185.8.129.187:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 144.225.65.208:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 87.120.106.162:52077",
+        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 185.226.92.185:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 62.204.58.175:53185",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - HY2 185.219.132.29:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 143.246.136.159:443",
@@ -5359,6 +5377,7 @@
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 64.49.15.76:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 213.142.156.169:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - HYSTERIA2 107.181.155.125:443",
+        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - HYSTERIA2 64.49.15.76:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 130.94.0.150:21376",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 141.98.115.65:8443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 156.146.52.118:8443",

@@ -2557,12 +2557,13 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.216.124.178:443",
-      "type": "trojan",
-      "server": "54.216.124.178",
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 78.17.7.31:443",
+      "type": "vless",
+      "server": "78.17.7.31",
       "port": 443,
-      "password": "UO36402987",
-      "tls": true
+      "uuid": "357de1b6-b5ec-4773-8d21-459ec4d8a408",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 3.249.52.148:50007",
@@ -2571,6 +2572,14 @@
       "port": 50007,
       "cipher": "auto",
       "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.216.124.178:443",
+      "type": "trojan",
+      "server": "54.216.124.178",
+      "port": 443,
+      "password": "UO36402987",
+      "tls": true
     },
     {
       "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.107.201.69:443",
@@ -3032,6 +3041,14 @@
       "port": 22222,
       "cipher": "auto",
       "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 45.141.234.219:13868",
+      "type": "ss",
+      "server": "45.141.234.219",
+      "port": 13868,
+      "cipher": "auto",
+      "password": ""
     }
   ],
   "proxy_groups": [
@@ -3324,8 +3341,9 @@
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.223.152.73:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 34.251.228.118:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.217.133.71:443",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.216.124.178:443",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 78.17.7.31:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 3.249.52.148:50007",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.216.124.178:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.107.201.69:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 74.234.78.179:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 168.63.68.5:443",
@@ -3382,7 +3400,8 @@
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.107.197.108:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 4.210.67.30:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.166.92.240:443",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 34.248.121.249:22222"
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 34.248.121.249:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 45.141.234.219:13868"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,

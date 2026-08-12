@@ -8,6 +8,15 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - VLESS 57.131.32.191:80",
+      "type": "vless",
+      "server": "57.131.32.191",
+      "port": 80,
+      "uuid": "1e280316-0408-47c4-b058-05b8f1f17f02",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - VLESS 31.76.113.187:443",
       "type": "vless",
       "server": "31.76.113.187",
@@ -22,23 +31,6 @@
       "server": "204.216.216.23",
       "port": 10086,
       "uuid": "9f0285ee-20ca-4953-bcdb-86a920652923",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 194.87.47.152:10901",
-      "type": "ss",
-      "server": "194.87.47.152",
-      "port": 10901,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - VLESS 57.131.32.191:80",
-      "type": "vless",
-      "server": "57.131.32.191",
-      "port": 80,
-      "uuid": "1e280316-0408-47c4-b058-05b8f1f17f02",
       "tls": true,
       "flow": ""
     },
@@ -2005,18 +1997,18 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 185.213.20.110:7001",
-      "type": "ss",
-      "server": "185.213.20.110",
-      "port": 7001,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 62.76.234.188:10901",
       "type": "ss",
       "server": "62.76.234.188",
       "port": 10901,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 185.213.20.110:7001",
+      "type": "ss",
+      "server": "185.213.20.110",
+      "port": 7001,
       "cipher": "auto",
       "password": ""
     },
@@ -2330,6 +2322,14 @@
       "type": "ss",
       "server": "104.105.64.121",
       "port": 50327,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 194.87.47.152:10901",
+      "type": "ss",
+      "server": "194.87.47.152",
+      "port": 10901,
       "cipher": "auto",
       "password": ""
     },
@@ -2723,26 +2723,10 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 57.131.16.49:2050",
-      "type": "ss",
-      "server": "57.131.16.49",
-      "port": 2050,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 31.76.113.51:443",
       "type": "ss",
       "server": "31.76.113.51",
       "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 45.196.215.241:8443",
-      "type": "ss",
-      "server": "45.196.215.241",
-      "port": 8443,
       "cipher": "auto",
       "password": ""
     }
@@ -2752,10 +2736,9 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDEE\uD83C\uDDF9 Italy - VLESS 57.131.32.191:80",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - VLESS 31.76.113.187:443",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - VLESS 204.216.216.23:10086",
-        "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 194.87.47.152:10901",
-        "\uD83C\uDDEE\uD83C\uDDF9 Italy - VLESS 57.131.32.191:80",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - VLESS 204.216.216.23:1114",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - VLESS 216.106.191.151:13868",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - VLESS 31.76.113.51:443",
@@ -2974,8 +2957,8 @@
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - VLESS 151.115.166.173:8880",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - VLESS 151.115.166.46:8880",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - VLESS 151.115.166.5:8880",
-        "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 185.213.20.110:7001",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 62.76.234.188:10901",
+        "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 185.213.20.110:7001",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - TROJAN 212.102.54.11:43118",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - HYSTERIA2 185.47.172.226:32950",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 185.213.21.5:2376",
@@ -3017,6 +3000,7 @@
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 151.115.167.6:8880",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 151.115.165.172:8880",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 104.105.64.121:50327",
+        "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 194.87.47.152:10901",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 45.92.70.236:22324",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 50.114.159.250:6666",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 185.198.235.208:20129",
@@ -3064,9 +3048,7 @@
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 104.105.69.97:443",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 151.115.164.134:8880",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 151.115.166.129:8880",
-        "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 57.131.16.49:2050",
-        "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 31.76.113.51:443",
-        "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 45.196.215.241:8443"
+        "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 31.76.113.51:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,

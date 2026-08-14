@@ -8,6 +8,15 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 45.140.204.182:13868",
+      "type": "vless",
+      "server": "45.140.204.182",
+      "port": 13868,
+      "uuid": "06d44c57-8e1a-41f4-b9c4-65d35869e078",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 45.140.205.186:2443",
       "type": "vless",
       "server": "45.140.205.186",
@@ -439,23 +448,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDF1 Israel - SS 45.140.204.162:2443",
-      "type": "ss",
-      "server": "45.140.204.162",
-      "port": 2443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 5.8.19.82:443",
-      "type": "vless",
-      "server": "5.8.19.82",
-      "port": 443,
-      "uuid": "f9e185aa-8116-49cc-9d84-07443169da00",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 193.202.11.44:443",
       "type": "vless",
       "server": "193.202.11.44",
@@ -487,6 +479,7 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 45.140.204.182:13868",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 45.140.205.186:2443",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 79.108.161.101:443",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 195.211.24.49:443",
@@ -536,8 +529,6 @@
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - SS 103.240.147.113:14605",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - SS 193.182.144.240:989",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 193.202.10.47:2443",
-        "\uD83C\uDDEE\uD83C\uDDF1 Israel - SS 45.140.204.162:2443",
-        "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 5.8.19.82:443",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 193.202.11.44:443",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 20.217.82.41:443",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - SS 45.140.204.75:45635"

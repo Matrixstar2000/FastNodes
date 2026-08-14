@@ -8,11 +8,29 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 38.49.208.29:443",
+      "type": "vless",
+      "server": "38.49.208.29",
+      "port": 443,
+      "uuid": "ff1b0b50-70dc-4bae-866e-55cff86f4d6d",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 185.206.170.37:20184",
       "type": "vless",
       "server": "185.206.170.37",
       "port": 20184,
       "uuid": "d4d4d103-5074-47e9-96e6-5431f4e35c57",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 130.107.73.148:41373",
+      "type": "vless",
+      "server": "130.107.73.148",
+      "port": 41373,
+      "uuid": "a71c8954-66a8-4321-bedb-2336230d81ce",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -24,15 +42,6 @@
       "uuid": "7dbd891c-7053-45aa-a2a6-ef1e73985c93",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 130.107.73.148:41373",
-      "type": "vless",
-      "server": "130.107.73.148",
-      "port": 41373,
-      "uuid": "a71c8954-66a8-4321-bedb-2336230d81ce",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 209.200.246.86:443",
@@ -76,15 +85,6 @@
       "server": "209.200.246.143",
       "port": 443,
       "uuid": "6ca50712-c5cd-4e32-97c5-bfa6485b848a",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 38.49.208.29:443",
-      "type": "vless",
-      "server": "38.49.208.29",
-      "port": 443,
-      "uuid": "ff1b0b50-70dc-4bae-866e-55cff86f4d6d",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -4133,6 +4133,14 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 185.196.61.82:8080",
+      "type": "ss",
+      "server": "185.196.61.82",
+      "port": 8080,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 149.22.95.183:443",
       "type": "ss",
       "server": "149.22.95.183",
@@ -4269,9 +4277,9 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 185.196.61.82:8080",
+      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 138.197.141.58:8080",
       "type": "ss",
-      "server": "185.196.61.82",
+      "server": "138.197.141.58",
       "port": 8080,
       "cipher": "auto",
       "password": ""
@@ -6017,46 +6025,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 85.208.108.58:8888",
-      "type": "ss",
-      "server": "85.208.108.58",
-      "port": 8888,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 51.79.89.68:443",
-      "type": "ss",
-      "server": "51.79.89.68",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 23.95.76.59:990",
-      "type": "ss",
-      "server": "23.95.76.59",
-      "port": 990,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 50.114.177.134:20188",
-      "type": "ss",
-      "server": "50.114.177.134",
-      "port": 20188,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 51.222.157.179:49602",
-      "type": "ss",
-      "server": "51.222.157.179",
-      "port": 49602,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 85.208.108.90:7001",
       "type": "ss",
       "server": "85.208.108.90",
@@ -6065,18 +6033,10 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 23.227.38.114:80",
+      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 85.208.108.58:8888",
       "type": "ss",
-      "server": "23.227.38.114",
-      "port": 80,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 138.197.141.58:8080",
-      "type": "ss",
-      "server": "138.197.141.58",
-      "port": 8080,
+      "server": "85.208.108.58",
+      "port": 8888,
       "cipher": "auto",
       "password": ""
     },
@@ -6102,30 +6062,6 @@
       "server": "23.227.39.36",
       "port": 443,
       "password": "3f23c1eb-ace4-49ec-a7f0-f591b006b95a",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 104.234.239.27:443",
-      "type": "trojan",
-      "server": "104.234.239.27",
-      "port": 443,
-      "password": "521314",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 74.49.214.27:443",
-      "type": "trojan",
-      "server": "74.49.214.27",
-      "port": 443,
-      "password": "521314",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 74.49.215.27:443",
-      "type": "trojan",
-      "server": "74.49.215.27",
-      "port": 443,
-      "password": "521314",
       "tls": true
     },
     {
@@ -6217,83 +6153,12 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 3.98.155.17:22222",
-      "type": "trojan",
-      "server": "3.98.155.17",
-      "port": 22222,
-      "password": "telegram-id-directvpn",
-      "tls": true
-    },
-    {
       "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 35.183.238.42:443",
       "type": "trojan",
       "server": "35.183.238.42",
       "port": 443,
       "password": "your_password",
       "tls": true
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 184.170.131.163:443",
-      "type": "vless",
-      "server": "184.170.131.163",
-      "port": 443,
-      "uuid": "05ac3cee-cc13-4cde-bfbe-928974baa2e3",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 104.234.239.201:8880",
-      "type": "vless",
-      "server": "104.234.239.201",
-      "port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 99.199.60.164:56565",
-      "type": "vless",
-      "server": "99.199.60.164",
-      "port": 56565,
-      "uuid": "cfa392db-7445-4aa6-964f-2a3e20103936",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 79.127.177.149:8443",
-      "type": "vless",
-      "server": "79.127.177.149",
-      "port": 8443,
-      "uuid": "d85597ac-a05e-4b0e-a910-408ae3e2bcbe",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 185.141.216.106:443",
-      "type": "vless",
-      "server": "185.141.216.106",
-      "port": 443,
-      "uuid": "df96530e-56f9-4876-9c84-54faaae14c5e",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 185.141.216.110:8443",
-      "type": "vless",
-      "server": "185.141.216.110",
-      "port": 8443,
-      "uuid": "e6e6d7b7-778c-42cb-b704-553126743195",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 172.105.29.241:8031",
-      "type": "vless",
-      "server": "172.105.29.241",
-      "port": 8031,
-      "uuid": "f1097fdb-e664-42b9-82a0-a5e38f7f43e0",
-      "tls": true,
-      "flow": ""
     },
     {
       "name": "\uD83C\uDDE8\uD83C\uDDE6 Canada - VMESS 23.227.60.7:443",
@@ -6571,15 +6436,15 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 38.49.208.29:443",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 185.206.170.37:20184",
-        "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 3.96.31.222:15215",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 130.107.73.148:41373",
+        "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 3.96.31.222:15215",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 209.200.246.86:443",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 158.69.112.254:443",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 216.152.147.28:443",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 66.70.179.198:2053",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 209.200.246.143:443",
-        "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 38.49.208.29:443",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 108.181.118.10:8388",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 185.206.170.29:8080",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 104.234.135.88:443",
@@ -7030,6 +6895,7 @@
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 68.168.114.238:1080",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 40.233.83.110:26113",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 81.19.140.202:60552",
+        "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 185.196.61.82:8080",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 149.22.95.183:443",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 134.195.196.230:6379",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 37.19.211.114:50695",
@@ -7047,7 +6913,7 @@
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 196.247.59.154:805",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 196.247.59.154:803",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 137.184.174.93:8080",
-        "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 185.196.61.82:8080",
+        "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 138.197.141.58:8080",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 23.227.60.8:443",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 52.60.99.199:443",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 158.69.112.254:443",
@@ -7265,20 +7131,11 @@
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 35.182.28.167:22222",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 15.222.9.61:22222",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 85.208.108.94:8118",
-        "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 85.208.108.58:8888",
-        "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 51.79.89.68:443",
-        "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 23.95.76.59:990",
-        "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 50.114.177.134:20188",
-        "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 51.222.157.179:49602",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 85.208.108.90:7001",
-        "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 23.227.38.114:80",
-        "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 138.197.141.58:8080",
+        "\uD83C\uDDE8\uD83C\uDDE6 Canada - SS 85.208.108.58:8888",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 51.161.35.200:443",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 23.227.38.45:443",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 23.227.39.36:443",
-        "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 104.234.239.27:443",
-        "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 74.49.214.27:443",
-        "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 74.49.215.27:443",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 23.227.39.108:443",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 149.56.132.41:80",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 104.234.239.235:2087",
@@ -7290,15 +7147,7 @@
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 23.227.39.39:443",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 23.227.39.89:443",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 23.227.38.11:443",
-        "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 3.98.155.17:22222",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - TROJAN 35.183.238.42:443",
-        "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 184.170.131.163:443",
-        "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 104.234.239.201:8880",
-        "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 99.199.60.164:56565",
-        "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 79.127.177.149:8443",
-        "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 185.141.216.106:443",
-        "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 185.141.216.110:8443",
-        "\uD83C\uDDE8\uD83C\uDDE6 Canada - VLESS 172.105.29.241:8031",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - HYSTERIA2 99.79.128.48:443",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - HYSTERIA2 99.79.62.65:443",
         "\uD83C\uDDE8\uD83C\uDDE6 Canada - HYSTERIA2 40.233.83.110:45979",

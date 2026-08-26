@@ -17,10 +17,26 @@
       "flow": "xtls-rprx-vision"
     },
     {
+      "name": "\uD83C\uDDEA\uD83C\uDDE8 Ecuador - SS 179.49.5.114:989",
+      "type": "ss",
+      "server": "179.49.5.114",
+      "port": 989,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDEA\uD83C\uDDE8 Ecuador - SS 185.47.253.227:990",
       "type": "ss",
       "server": "185.47.253.227",
       "port": 990,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEA\uD83C\uDDE8 Ecuador - SS 130.94.117.28:8443",
+      "type": "ss",
+      "server": "130.94.117.28",
+      "port": 8443,
       "cipher": "auto",
       "password": ""
     },
@@ -41,10 +57,10 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEA\uD83C\uDDE8 Ecuador - SS 179.49.5.114:989",
+      "name": "\uD83C\uDDEA\uD83C\uDDE8 Ecuador - SS 185.47.253.144:20010",
       "type": "ss",
-      "server": "179.49.5.114",
-      "port": 989,
+      "server": "185.47.253.144",
+      "port": 20010,
       "cipher": "auto",
       "password": ""
     }
@@ -55,10 +71,12 @@
       "type": "url-test",
       "proxies": [
         "\uD83C\uDDEA\uD83C\uDDE8 Ecuador - VLESS 130.94.117.28:8443",
+        "\uD83C\uDDEA\uD83C\uDDE8 Ecuador - SS 179.49.5.114:989",
         "\uD83C\uDDEA\uD83C\uDDE8 Ecuador - SS 185.47.253.227:990",
+        "\uD83C\uDDEA\uD83C\uDDE8 Ecuador - SS 130.94.117.28:8443",
         "\uD83C\uDDEA\uD83C\uDDE8 Ecuador - SS 38.165.231.25:990",
         "\uD83C\uDDEA\uD83C\uDDE8 Ecuador - SS 185.47.253.171:990",
-        "\uD83C\uDDEA\uD83C\uDDE8 Ecuador - SS 179.49.5.114:989"
+        "\uD83C\uDDEA\uD83C\uDDE8 Ecuador - SS 185.47.253.144:20010"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,

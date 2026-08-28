@@ -4739,15 +4739,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF0\uD83C\uDDF7 South Korea - VLESS 146.56.141.168:47590",
-      "type": "vless",
-      "server": "146.56.141.168",
-      "port": 47590,
-      "uuid": "d7dd3a35-b68b-4992-b319-a85b8a1fc8e5",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 129.154.222.205:32401",
       "type": "ss",
       "server": "129.154.222.205",
@@ -5133,15 +5124,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF0\uD83C\uDDF7 South Korea - VLESS 158.247.201.96:443",
-      "type": "vless",
-      "server": "158.247.201.96",
-      "port": 443,
-      "uuid": "41f4cb15-5a3f-3934-89fe-b4177146adf4",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDF0\uD83C\uDDF7 South Korea - VLESS 116.123.243.42:21437",
       "type": "vless",
       "server": "116.123.243.42",
@@ -5160,18 +5142,27 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 141.164.45.187:6679",
-      "type": "ss",
-      "server": "141.164.45.187",
-      "port": 6679,
-      "cipher": "auto",
-      "password": ""
+      "name": "\uD83C\uDDF0\uD83C\uDDF7 South Korea - VLESS 146.56.141.168:47590",
+      "type": "vless",
+      "server": "146.56.141.168",
+      "port": 47590,
+      "uuid": "d7dd3a35-b68b-4992-b319-a85b8a1fc8e5",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 211.178.105.134:6123",
       "type": "ss",
       "server": "211.178.105.134",
       "port": 6123,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 141.164.45.187:6679",
+      "type": "ss",
+      "server": "141.164.45.187",
+      "port": 6679,
       "cipher": "auto",
       "password": ""
     },
@@ -6161,14 +6152,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 141.164.45.187:7002",
-      "type": "ss",
-      "server": "141.164.45.187",
-      "port": 7002,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 47.80.60.254:443",
       "type": "ss",
       "server": "47.80.60.254",
@@ -6335,6 +6318,15 @@
       "server": "221.161.207.216",
       "port": 50000,
       "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF0\uD83C\uDDF7 South Korea - VLESS 3.34.134.210:8686",
+      "type": "vless",
+      "server": "3.34.134.210",
+      "port": 8686,
+      "uuid": "1a17b19d-4896-4531-af79-6e91d8ef8228",
       "tls": true,
       "flow": ""
     },
@@ -6749,14 +6741,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF0\uD83C\uDDF7 South Korea - TROJAN 54.116.195.76:443",
-      "type": "trojan",
-      "server": "54.116.195.76",
-      "port": 443,
-      "password": "EQ30679154",
-      "tls": true
-    },
-    {
       "name": "\uD83C\uDDF0\uD83C\uDDF7 South Korea - TROJAN 118.218.10.159:443",
       "type": "trojan",
       "server": "118.218.10.159",
@@ -6795,6 +6779,14 @@
       "port": 34237,
       "cipher": "auto",
       "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF0\uD83C\uDDF7 South Korea - TROJAN 54.116.195.76:443",
+      "type": "trojan",
+      "server": "54.116.195.76",
+      "port": 443,
+      "password": "EQ30679154",
+      "tls": true
     }
   ],
   "proxy_groups": [
@@ -7328,7 +7320,6 @@
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - VLESS 13.209.6.223:8686",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - VLESS 43.202.41.225:10049",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - VLESS 54.180.132.83:10046",
-        "\uD83C\uDDF0\uD83C\uDDF7 South Korea - VLESS 146.56.141.168:47590",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 129.154.222.205:32401",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 129.154.222.205:32402",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 129.154.222.205:32403",
@@ -7377,11 +7368,11 @@
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 13.124.178.1:443",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 43.203.227.246:443",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 13.125.243.77:443",
-        "\uD83C\uDDF0\uD83C\uDDF7 South Korea - VLESS 158.247.201.96:443",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - VLESS 116.123.243.42:21437",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - VLESS 146.56.136.39:10099",
-        "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 141.164.45.187:6679",
+        "\uD83C\uDDF0\uD83C\uDDF7 South Korea - VLESS 146.56.141.168:47590",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 211.178.105.134:6123",
+        "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 141.164.45.187:6679",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 221.139.79.57:13979",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 218.237.185.230:4652",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - TROJAN 119.195.0.158:35342",
@@ -7508,7 +7499,6 @@
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - HYSTERIA2 3.36.93.74:443",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - HYSTERIA2 3.36.96.245:443",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 141.164.45.187:8091",
-        "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 141.164.45.187:7002",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 47.80.60.254:443",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - TROJAN 146.56.179.67:40001",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - TROJAN 146.56.179.67:40006",
@@ -7530,6 +7520,7 @@
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - TROJAN 64.110.68.224:20152",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - VLESS 121.170.103.94:12335",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - VLESS 221.161.207.216:50000",
+        "\uD83C\uDDF0\uD83C\uDDF7 South Korea - VLESS 3.34.134.210:8686",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - HY2 132.226.226.189:50160",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - HYSTERIA2 43.201.45.216:29609",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - HYSTERIA2 158.180.77.90:30102",
@@ -7596,12 +7587,12 @@
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - HYSTERIA2 13.124.150.77:443",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - HYSTERIA2 3.34.139.135:443",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - HYSTERIA2 43.201.1.129:443",
-        "\uD83C\uDDF0\uD83C\uDDF7 South Korea - TROJAN 54.116.195.76:443",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - TROJAN 118.218.10.159:443",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 116.123.243.42:21437",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 59.3.3.161:443",
         "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 146.56.136.39:10099",
-        "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 152.70.239.134:34237"
+        "\uD83C\uDDF0\uD83C\uDDF7 South Korea - SS 152.70.239.134:34237",
+        "\uD83C\uDDF0\uD83C\uDDF7 South Korea - TROJAN 54.116.195.76:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,

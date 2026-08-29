@@ -8,15 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 13.143.214.1:443",
-      "type": "vless",
-      "server": "13.143.214.1",
-      "port": 443,
-      "uuid": "31107c01-eb9a-49f1-aeee-1529838ee043",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 46.29.238.246:449",
       "type": "vless",
       "server": "46.29.238.246",
@@ -428,6 +419,15 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 46.29.238.196:443",
+      "type": "vless",
+      "server": "46.29.238.196",
+      "port": 443,
+      "uuid": "4fe214fb-048e-431f-b939-4518dc9df6a2",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 193.200.229.240:443",
       "type": "vless",
       "server": "193.200.229.240",
@@ -437,13 +437,21 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 46.29.238.196:443",
+      "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 185.213.23.63:990",
+      "type": "ss",
+      "server": "185.213.23.63",
+      "port": 990,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 13.143.214.2:443",
       "type": "vless",
-      "server": "46.29.238.196",
+      "server": "13.143.214.2",
       "port": 443,
-      "uuid": "4fe214fb-048e-431f-b939-4518dc9df6a2",
+      "uuid": "c10f24d6-90ca-4acc-87c9-86aa398bf704",
       "tls": true,
-      "flow": "xtls-rprx-vision"
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 194.110.207.48:443",
@@ -502,14 +510,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 185.213.23.63:990",
-      "type": "ss",
-      "server": "185.213.23.63",
-      "port": 990,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 46.29.238.88:40443",
       "type": "ss",
       "server": "46.29.238.88",
@@ -534,6 +534,15 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 13.143.214.1:443",
+      "type": "vless",
+      "server": "13.143.214.1",
+      "port": 443,
+      "uuid": "31107c01-eb9a-49f1-aeee-1529838ee043",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 151.242.168.180:443",
       "type": "vless",
       "server": "151.242.168.180",
@@ -550,6 +559,86 @@
       "uuid": "9c3d8e77-82ca-48d5-9981-dfce97b20ab1",
       "tls": true,
       "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 151.242.168.238:443",
+      "type": "ss",
+      "server": "151.242.168.238",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 151.242.168.180:443",
+      "type": "ss",
+      "server": "151.242.168.180",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 151.242.169.43:443",
+      "type": "ss",
+      "server": "151.242.169.43",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 151.242.168.69:335",
+      "type": "ss",
+      "server": "151.242.168.69",
+      "port": 335,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 151.242.168.237:443",
+      "type": "ss",
+      "server": "151.242.168.237",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 194.110.207.70:443",
+      "type": "ss",
+      "server": "194.110.207.70",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 151.242.168.239:443",
+      "type": "ss",
+      "server": "151.242.168.239",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 151.242.169.45:443",
+      "type": "ss",
+      "server": "151.242.169.45",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 46.29.238.139:40443",
+      "type": "ss",
+      "server": "46.29.238.139",
+      "port": 40443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 194.110.207.146:443",
+      "type": "ss",
+      "server": "194.110.207.146",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
     },
     {
       "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 148.135.195.143:443",
@@ -584,7 +673,6 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 13.143.214.1:443",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 46.29.238.246:449",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 151.101.236.11:80",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 144.31.128.199:443",
@@ -631,8 +719,10 @@
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 151.242.168.181:443",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 91.219.215.67:40282",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 194.68.32.29:989",
-        "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 193.200.229.240:443",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 46.29.238.196:443",
+        "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 193.200.229.240:443",
+        "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 185.213.23.63:990",
+        "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 13.143.214.2:443",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 194.110.207.48:443",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 185.243.218.182:322",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 194.110.207.75:443",
@@ -640,13 +730,23 @@
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 51.13.182.236:6870",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 185.90.61.153:989",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 151.242.168.181:443",
-        "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 185.213.23.63:990",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 46.29.238.88:40443",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 185.213.23.226:989",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 151.242.169.44:443",
+        "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 13.143.214.1:443",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 151.242.168.180:443",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 194.110.207.146:443",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - HYSTERIA2 185.90.61.28:8443",
+        "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 151.242.168.238:443",
+        "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 151.242.168.180:443",
+        "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 151.242.169.43:443",
+        "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 151.242.168.69:335",
+        "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 151.242.168.237:443",
+        "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 194.110.207.70:443",
+        "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 151.242.168.239:443",
+        "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 151.242.169.45:443",
+        "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 46.29.238.139:40443",
+        "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 194.110.207.146:443",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 148.135.195.143:443",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 148.135.195.95:443",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 149.33.18.250:443"

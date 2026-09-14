@@ -212,6 +212,15 @@
       "port": 2096,
       "cipher": "auto",
       "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 150.40.126.28:443",
+      "type": "vless",
+      "server": "150.40.126.28",
+      "port": 443,
+      "uuid": "4360f941-b541-43d4-8507-2de3763e0cfd",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     }
   ],
   "proxy_groups": [
@@ -242,7 +251,8 @@
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - SS 150.40.126.18:443",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - SS 194.71.126.31:989",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - SS 146.70.221.238:1080",
-        "\uD83C\uDDF7\uD83C\uDDF8 Serbia - SS 81.18.48.97:2096"
+        "\uD83C\uDDF7\uD83C\uDDF8 Serbia - SS 81.18.48.97:2096",
+        "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 150.40.126.28:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,

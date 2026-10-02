@@ -8,11 +8,19 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.195.236.24:443",
+      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.81.85.238:443",
       "type": "trojan",
-      "server": "103.195.236.24",
+      "server": "103.81.85.238",
       "port": 443,
-      "password": "8078dd51-d4d9-4024-89df-50e358a00a54",
+      "password": "b874173c-dfc6-40f4-9542-d973997f9659",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.155.72:28443",
+      "type": "trojan",
+      "server": "103.173.155.72",
+      "port": 28443,
+      "password": "6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4",
       "tls": true
     },
     {
@@ -32,11 +40,19 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.155.72:28443",
+      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.163.218.2:989",
+      "type": "ss",
+      "server": "103.163.218.2",
+      "port": 989,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.195.236.24:443",
       "type": "trojan",
-      "server": "103.173.155.72",
-      "port": 28443,
-      "password": "6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4",
+      "server": "103.195.236.24",
+      "port": 443,
+      "password": "8078dd51-d4d9-4024-89df-50e358a00a54",
       "tls": true
     },
     {
@@ -46,22 +62,6 @@
       "port": 443,
       "password": "5623be5f-c9da-4511-81a9-b4b39b16edae",
       "tls": true
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.21:443",
-      "type": "trojan",
-      "server": "103.173.255.21",
-      "port": 443,
-      "password": "5623be5f-c9da-4511-81a9-b4b39b16edae",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.163.218.2:989",
-      "type": "ss",
-      "server": "103.163.218.2",
-      "port": 989,
-      "cipher": "auto",
-      "password": ""
     },
     {
       "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.143.209.134:51348",
@@ -80,22 +80,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.12.76.62:20002",
-      "type": "ss",
-      "server": "103.12.76.62",
-      "port": 20002,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 112.197.26.106:45310",
-      "type": "ss",
-      "server": "112.197.26.106",
-      "port": 45310,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.163.218.2:990",
       "type": "ss",
       "server": "103.163.218.2",
@@ -104,553 +88,9 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.151.57.123:38388",
-      "type": "ss",
-      "server": "103.151.57.123",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.11:38388",
-      "type": "ss",
-      "server": "103.186.154.11",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.12:38388",
-      "type": "ss",
-      "server": "103.186.154.12",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.139:38388",
-      "type": "ss",
-      "server": "103.186.154.139",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.13:38388",
-      "type": "ss",
-      "server": "103.186.154.13",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.140:38388",
-      "type": "ss",
-      "server": "103.186.154.140",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.141:38388",
-      "type": "ss",
-      "server": "103.186.154.141",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.142:38388",
-      "type": "ss",
-      "server": "103.186.154.142",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.143:38388",
-      "type": "ss",
-      "server": "103.186.154.143",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.144:38388",
-      "type": "ss",
-      "server": "103.186.154.144",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.145:38388",
-      "type": "ss",
-      "server": "103.186.154.145",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.146:38388",
-      "type": "ss",
-      "server": "103.186.154.146",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.147:38388",
-      "type": "ss",
-      "server": "103.186.154.147",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.148:38388",
-      "type": "ss",
-      "server": "103.186.154.148",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.149:38388",
-      "type": "ss",
-      "server": "103.186.154.149",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.14:38388",
-      "type": "ss",
-      "server": "103.186.154.14",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.150:38388",
-      "type": "ss",
-      "server": "103.186.154.150",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.151:38388",
-      "type": "ss",
-      "server": "103.186.154.151",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.152:38388",
-      "type": "ss",
-      "server": "103.186.154.152",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.153:38388",
-      "type": "ss",
-      "server": "103.186.154.153",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.154:38388",
-      "type": "ss",
-      "server": "103.186.154.154",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.155:38388",
-      "type": "ss",
-      "server": "103.186.154.155",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.156:38388",
-      "type": "ss",
-      "server": "103.186.154.156",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.157:38388",
-      "type": "ss",
-      "server": "103.186.154.157",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.158:38388",
-      "type": "ss",
-      "server": "103.186.154.158",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.159:38388",
-      "type": "ss",
-      "server": "103.186.154.159",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.15:38388",
-      "type": "ss",
-      "server": "103.186.154.15",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.160:38388",
-      "type": "ss",
-      "server": "103.186.154.160",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.161:38388",
-      "type": "ss",
-      "server": "103.186.154.161",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.162:38388",
-      "type": "ss",
-      "server": "103.186.154.162",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.163:38388",
-      "type": "ss",
-      "server": "103.186.154.163",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.164:38388",
-      "type": "ss",
-      "server": "103.186.154.164",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.165:38388",
-      "type": "ss",
-      "server": "103.186.154.165",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.166:38388",
-      "type": "ss",
-      "server": "103.186.154.166",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.167:38388",
-      "type": "ss",
-      "server": "103.186.154.167",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.168:38388",
-      "type": "ss",
-      "server": "103.186.154.168",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.169:38388",
-      "type": "ss",
-      "server": "103.186.154.169",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.16:38388",
-      "type": "ss",
-      "server": "103.186.154.16",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.170:38388",
-      "type": "ss",
-      "server": "103.186.154.170",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.172:38388",
-      "type": "ss",
-      "server": "103.186.154.172",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.173:38388",
-      "type": "ss",
-      "server": "103.186.154.173",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.174:38388",
-      "type": "ss",
-      "server": "103.186.154.174",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.175:38388",
-      "type": "ss",
-      "server": "103.186.154.175",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.176:38388",
-      "type": "ss",
-      "server": "103.186.154.176",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.177:38388",
-      "type": "ss",
-      "server": "103.186.154.177",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.178:38388",
-      "type": "ss",
-      "server": "103.186.154.178",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.179:38388",
-      "type": "ss",
-      "server": "103.186.154.179",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.17:38388",
-      "type": "ss",
-      "server": "103.186.154.17",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.180:38388",
-      "type": "ss",
-      "server": "103.186.154.180",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.181:38388",
-      "type": "ss",
-      "server": "103.186.154.181",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.182:38388",
-      "type": "ss",
-      "server": "103.186.154.182",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.183:38388",
-      "type": "ss",
-      "server": "103.186.154.183",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.184:38388",
-      "type": "ss",
-      "server": "103.186.154.184",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.185:38388",
-      "type": "ss",
-      "server": "103.186.154.185",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.186:38388",
-      "type": "ss",
-      "server": "103.186.154.186",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.187:38388",
-      "type": "ss",
-      "server": "103.186.154.187",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.188:38388",
-      "type": "ss",
-      "server": "103.186.154.188",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.189:38388",
-      "type": "ss",
-      "server": "103.186.154.189",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.18:38388",
       "type": "ss",
       "server": "103.186.154.18",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.190:38388",
-      "type": "ss",
-      "server": "103.186.154.190",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.191:38388",
-      "type": "ss",
-      "server": "103.186.154.191",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.192:38388",
-      "type": "ss",
-      "server": "103.186.154.192",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.193:38388",
-      "type": "ss",
-      "server": "103.186.154.193",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.194:38388",
-      "type": "ss",
-      "server": "103.186.154.194",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.195:38388",
-      "type": "ss",
-      "server": "103.186.154.195",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.196:38388",
-      "type": "ss",
-      "server": "103.186.154.196",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.197:38388",
-      "type": "ss",
-      "server": "103.186.154.197",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.198:38388",
-      "type": "ss",
-      "server": "103.186.154.198",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.199:38388",
-      "type": "ss",
-      "server": "103.186.154.199",
       "port": 38388,
       "cipher": "auto",
       "password": ""
@@ -664,169 +104,9 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.200:38388",
-      "type": "ss",
-      "server": "103.186.154.200",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.201:38388",
-      "type": "ss",
-      "server": "103.186.154.201",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.202:38388",
-      "type": "ss",
-      "server": "103.186.154.202",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.203:38388",
-      "type": "ss",
-      "server": "103.186.154.203",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.204:38388",
-      "type": "ss",
-      "server": "103.186.154.204",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.205:38388",
-      "type": "ss",
-      "server": "103.186.154.205",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.206:38388",
-      "type": "ss",
-      "server": "103.186.154.206",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.207:38388",
-      "type": "ss",
-      "server": "103.186.154.207",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.208:38388",
-      "type": "ss",
-      "server": "103.186.154.208",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.209:38388",
-      "type": "ss",
-      "server": "103.186.154.209",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.20:38388",
       "type": "ss",
       "server": "103.186.154.20",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.210:38388",
-      "type": "ss",
-      "server": "103.186.154.210",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.211:38388",
-      "type": "ss",
-      "server": "103.186.154.211",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.212:38388",
-      "type": "ss",
-      "server": "103.186.154.212",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.213:38388",
-      "type": "ss",
-      "server": "103.186.154.213",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.214:38388",
-      "type": "ss",
-      "server": "103.186.154.214",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.215:38388",
-      "type": "ss",
-      "server": "103.186.154.215",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.216:38388",
-      "type": "ss",
-      "server": "103.186.154.216",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.217:38388",
-      "type": "ss",
-      "server": "103.186.154.217",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.218:38388",
-      "type": "ss",
-      "server": "103.186.154.218",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.219:38388",
-      "type": "ss",
-      "server": "103.186.154.219",
       "port": 38388,
       "cipher": "auto",
       "password": ""
@@ -840,169 +120,9 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.220:38388",
-      "type": "ss",
-      "server": "103.186.154.220",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.221:38388",
-      "type": "ss",
-      "server": "103.186.154.221",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.222:38388",
-      "type": "ss",
-      "server": "103.186.154.222",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.223:38388",
-      "type": "ss",
-      "server": "103.186.154.223",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.224:38388",
-      "type": "ss",
-      "server": "103.186.154.224",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.225:38388",
-      "type": "ss",
-      "server": "103.186.154.225",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.226:38388",
-      "type": "ss",
-      "server": "103.186.154.226",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.227:38388",
-      "type": "ss",
-      "server": "103.186.154.227",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.228:38388",
-      "type": "ss",
-      "server": "103.186.154.228",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.229:38388",
-      "type": "ss",
-      "server": "103.186.154.229",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.22:38388",
       "type": "ss",
       "server": "103.186.154.22",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.230:38388",
-      "type": "ss",
-      "server": "103.186.154.230",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.231:38388",
-      "type": "ss",
-      "server": "103.186.154.231",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.232:38388",
-      "type": "ss",
-      "server": "103.186.154.232",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.233:38388",
-      "type": "ss",
-      "server": "103.186.154.233",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.234:38388",
-      "type": "ss",
-      "server": "103.186.154.234",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.235:38388",
-      "type": "ss",
-      "server": "103.186.154.235",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.236:38388",
-      "type": "ss",
-      "server": "103.186.154.236",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.237:38388",
-      "type": "ss",
-      "server": "103.186.154.237",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.238:38388",
-      "type": "ss",
-      "server": "103.186.154.238",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.239:38388",
-      "type": "ss",
-      "server": "103.186.154.239",
       "port": 38388,
       "cipher": "auto",
       "password": ""
@@ -1016,129 +136,9 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.240:38388",
-      "type": "ss",
-      "server": "103.186.154.240",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.241:38388",
-      "type": "ss",
-      "server": "103.186.154.241",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.242:38388",
-      "type": "ss",
-      "server": "103.186.154.242",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.243:38388",
-      "type": "ss",
-      "server": "103.186.154.243",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.244:38388",
-      "type": "ss",
-      "server": "103.186.154.244",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.245:38388",
-      "type": "ss",
-      "server": "103.186.154.245",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.246:38388",
-      "type": "ss",
-      "server": "103.186.154.246",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.247:38388",
-      "type": "ss",
-      "server": "103.186.154.247",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.248:38388",
-      "type": "ss",
-      "server": "103.186.154.248",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.249:38388",
-      "type": "ss",
-      "server": "103.186.154.249",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.24:38388",
       "type": "ss",
       "server": "103.186.154.24",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.250:38388",
-      "type": "ss",
-      "server": "103.186.154.250",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.251:38388",
-      "type": "ss",
-      "server": "103.186.154.251",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.252:38388",
-      "type": "ss",
-      "server": "103.186.154.252",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.253:38388",
-      "type": "ss",
-      "server": "103.186.154.253",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.254:38388",
-      "type": "ss",
-      "server": "103.186.154.254",
       "port": 38388,
       "cipher": "auto",
       "password": ""
@@ -1216,14 +216,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.34:38388",
-      "type": "ss",
-      "server": "103.186.154.34",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.35:38388",
       "type": "ss",
       "server": "103.186.154.35",
@@ -1256,457 +248,9 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.39:38388",
-      "type": "ss",
-      "server": "103.186.154.39",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.40:38388",
-      "type": "ss",
-      "server": "103.186.154.40",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.41:38388",
-      "type": "ss",
-      "server": "103.186.154.41",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.42:38388",
-      "type": "ss",
-      "server": "103.186.154.42",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.43:38388",
-      "type": "ss",
-      "server": "103.186.154.43",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.44:38388",
-      "type": "ss",
-      "server": "103.186.154.44",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.45:38388",
-      "type": "ss",
-      "server": "103.186.154.45",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.46:38388",
-      "type": "ss",
-      "server": "103.186.154.46",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.47:38388",
-      "type": "ss",
-      "server": "103.186.154.47",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.48:38388",
-      "type": "ss",
-      "server": "103.186.154.48",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.49:38388",
-      "type": "ss",
-      "server": "103.186.154.49",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.4:38388",
-      "type": "ss",
-      "server": "103.186.154.4",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.50:38388",
-      "type": "ss",
-      "server": "103.186.154.50",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.51:38388",
-      "type": "ss",
-      "server": "103.186.154.51",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.52:38388",
-      "type": "ss",
-      "server": "103.186.154.52",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.53:38388",
-      "type": "ss",
-      "server": "103.186.154.53",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.54:38388",
-      "type": "ss",
-      "server": "103.186.154.54",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.55:38388",
-      "type": "ss",
-      "server": "103.186.154.55",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.56:38388",
-      "type": "ss",
-      "server": "103.186.154.56",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.57:38388",
-      "type": "ss",
-      "server": "103.186.154.57",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.58:38388",
-      "type": "ss",
-      "server": "103.186.154.58",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.59:38388",
-      "type": "ss",
-      "server": "103.186.154.59",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.60:38388",
-      "type": "ss",
-      "server": "103.186.154.60",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.61:38388",
-      "type": "ss",
-      "server": "103.186.154.61",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.62:38388",
-      "type": "ss",
-      "server": "103.186.154.62",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.63:38388",
-      "type": "ss",
-      "server": "103.186.154.63",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.64:38388",
-      "type": "ss",
-      "server": "103.186.154.64",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.65:38388",
-      "type": "ss",
-      "server": "103.186.154.65",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.66:38388",
-      "type": "ss",
-      "server": "103.186.154.66",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.67:38388",
-      "type": "ss",
-      "server": "103.186.154.67",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.68:38388",
-      "type": "ss",
-      "server": "103.186.154.68",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.69:38388",
-      "type": "ss",
-      "server": "103.186.154.69",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.70:38388",
-      "type": "ss",
-      "server": "103.186.154.70",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.71:38388",
-      "type": "ss",
-      "server": "103.186.154.71",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.72:38388",
-      "type": "ss",
-      "server": "103.186.154.72",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.73:38388",
-      "type": "ss",
-      "server": "103.186.154.73",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.74:38388",
-      "type": "ss",
-      "server": "103.186.154.74",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.75:38388",
-      "type": "ss",
-      "server": "103.186.154.75",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.76:38388",
-      "type": "ss",
-      "server": "103.186.154.76",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.77:38388",
-      "type": "ss",
-      "server": "103.186.154.77",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.78:38388",
-      "type": "ss",
-      "server": "103.186.154.78",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.79:38388",
-      "type": "ss",
-      "server": "103.186.154.79",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.80:38388",
-      "type": "ss",
-      "server": "103.186.154.80",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.9:38388",
-      "type": "ss",
-      "server": "103.186.154.9",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.101:38388",
-      "type": "ss",
-      "server": "103.186.155.101",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.102:38388",
-      "type": "ss",
-      "server": "103.186.155.102",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.103:38388",
-      "type": "ss",
-      "server": "103.186.155.103",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.104:38388",
-      "type": "ss",
-      "server": "103.186.155.104",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.105:38388",
-      "type": "ss",
-      "server": "103.186.155.105",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.106:38388",
-      "type": "ss",
-      "server": "103.186.155.106",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.107:38388",
-      "type": "ss",
-      "server": "103.186.155.107",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.10:38388",
-      "type": "ss",
-      "server": "103.186.155.10",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.121:38388",
-      "type": "ss",
-      "server": "103.186.155.121",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.122:38388",
-      "type": "ss",
-      "server": "103.186.155.122",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.133:38388",
       "type": "ss",
       "server": "103.186.155.133",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.13:38388",
-      "type": "ss",
-      "server": "103.186.155.13",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.145:38388",
-      "type": "ss",
-      "server": "103.186.155.145",
       "port": 38388,
       "cipher": "auto",
       "password": ""
@@ -1744,25 +288,9 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.224:38388",
-      "type": "ss",
-      "server": "103.186.155.224",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.22:38388",
       "type": "ss",
       "server": "103.186.155.22",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.236:38388",
-      "type": "ss",
-      "server": "103.186.155.236",
       "port": 38388,
       "cipher": "auto",
       "password": ""
@@ -1792,121 +320,9 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.26:38388",
-      "type": "ss",
-      "server": "103.186.155.26",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.28:38388",
-      "type": "ss",
-      "server": "103.186.155.28",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.30:38388",
       "type": "ss",
       "server": "103.186.155.30",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.32:38388",
-      "type": "ss",
-      "server": "103.186.155.32",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.33:38388",
-      "type": "ss",
-      "server": "103.186.155.33",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.35:38388",
-      "type": "ss",
-      "server": "103.186.155.35",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.37:38388",
-      "type": "ss",
-      "server": "103.186.155.37",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.42:38388",
-      "type": "ss",
-      "server": "103.186.155.42",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.51:38388",
-      "type": "ss",
-      "server": "103.186.155.51",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.52:38388",
-      "type": "ss",
-      "server": "103.186.155.52",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.60:38388",
-      "type": "ss",
-      "server": "103.186.155.60",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.62:38388",
-      "type": "ss",
-      "server": "103.186.155.62",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.71:38388",
-      "type": "ss",
-      "server": "103.186.155.71",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.76:38388",
-      "type": "ss",
-      "server": "103.186.155.76",
-      "port": 38388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.84:38388",
-      "type": "ss",
-      "server": "103.186.155.84",
       "port": 38388,
       "cipher": "auto",
       "password": ""
@@ -1934,46 +350,6 @@
       "port": 52327,
       "cipher": "auto",
       "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 165.154.55.105:20984",
-      "type": "ss",
-      "server": "165.154.55.105",
-      "port": 20984,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.21:28443",
-      "type": "trojan",
-      "server": "103.173.255.21",
-      "port": 28443,
-      "password": "09553aee-5191-4870-a312-51d053ea668b",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.228:28443",
-      "type": "trojan",
-      "server": "103.173.255.228",
-      "port": 28443,
-      "password": "09553aee-5191-4870-a312-51d053ea668b",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.234:28443",
-      "type": "trojan",
-      "server": "103.173.255.234",
-      "port": 28443,
-      "password": "09553aee-5191-4870-a312-51d053ea668b",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.81.85.238:443",
-      "type": "trojan",
-      "server": "103.81.85.238",
-      "port": 443,
-      "password": "52171d41-9367-429f-baa6-43660a6c84e4",
-      "tls": true
     },
     {
       "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.127:28000",
@@ -2008,19 +384,19 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.154.63.16:443",
+      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.21:443",
       "type": "trojan",
-      "server": "103.154.63.16",
+      "server": "103.173.255.21",
       "port": 443,
-      "password": "5bae27f5-3b8e-48f3-b91f-30fc680ea78f",
+      "password": "5623be5f-c9da-4511-81a9-b4b39b16edae",
       "tls": true
     },
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.66.191:443",
+      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.228:28443",
       "type": "trojan",
-      "server": "103.173.66.191",
-      "port": 443,
-      "password": "5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad",
+      "server": "103.173.255.228",
+      "port": 28443,
+      "password": "5ceb716a-9a0c-493a-9a0b-a05e08a1b1fc",
       "tls": true
     },
     {
@@ -2032,11 +408,11 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.228:443",
+      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.234:28443",
       "type": "trojan",
-      "server": "103.173.255.228",
-      "port": 443,
-      "password": "7da84a56-a1e2-48f3-a690-374a3973d7e8",
+      "server": "103.173.255.234",
+      "port": 28443,
+      "password": "6248895b-4255-4f07-9479-d198bc1eb8db",
       "tls": true
     },
     {
@@ -2072,49 +448,6 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.127:28443",
-      "type": "trojan",
-      "server": "103.173.255.127",
-      "port": 28443,
-      "password": "f033bd38-fe03-4705-883c-e45654eaa082",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.166.185.11:443",
-      "type": "trojan",
-      "server": "103.166.185.11",
-      "port": 443,
-      "password": "mothai3456789080898",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.15.91.104:10102",
-      "type": "vless",
-      "server": "103.15.91.104",
-      "port": 10102,
-      "uuid": "1d50df52-368d-4d14-8bf7-9b89e82985e2",
-      "tls": true,
-      "flow": "xtls-rprx-vision-udp443"
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.70.13.72:443",
-      "type": "vless",
-      "server": "103.70.13.72",
-      "port": 443,
-      "uuid": "26524cce-d514-4014-a426-365fb266a14d",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.118.29.142:35730",
-      "type": "vless",
-      "server": "103.118.29.142",
-      "port": 35730,
-      "uuid": "376dc930-a905-4e75-a2d5-bb801a6adc25",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.153.254.231:80",
       "type": "vless",
       "server": "103.153.254.231",
@@ -2133,20 +466,11 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.173.155.30:443",
+      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 2.27.26.96:443",
       "type": "vless",
-      "server": "103.173.155.30",
+      "server": "2.27.26.96",
       "port": 443,
-      "uuid": "723af53a-b131-3270-8ce0-13f8ecaaa322",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.15.90.134:49678",
-      "type": "vless",
-      "server": "103.15.90.134",
-      "port": 49678,
-      "uuid": "981fca81-5be1-41f8-ac9b-d138e8109943",
+      "uuid": "63d025be-5e23-437b-961d-84dbe25cd587",
       "tls": true,
       "flow": ""
     },
@@ -2187,42 +511,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 160.22.16.187:443",
-      "type": "vless",
-      "server": "160.22.16.187",
-      "port": 443,
-      "uuid": "ce069292-c8bf-40dd-a6b1-87818a1e64e9",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 161.248.31.198:443",
-      "type": "vless",
-      "server": "161.248.31.198",
-      "port": 443,
-      "uuid": "ce069292-c8bf-40dd-a6b1-87818a1e64e9",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 161.248.31.35:443",
-      "type": "vless",
-      "server": "161.248.31.35",
-      "port": 443,
-      "uuid": "ce069292-c8bf-40dd-a6b1-87818a1e64e9",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 163.61.74.121:443",
-      "type": "vless",
-      "server": "163.61.74.121",
-      "port": 443,
-      "uuid": "ce069292-c8bf-40dd-a6b1-87818a1e64e9",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 160.30.54.63:443",
       "type": "vless",
       "server": "160.30.54.63",
@@ -2237,24 +525,6 @@
       "server": "160.22.74.117",
       "port": 443,
       "uuid": "d6ff02be-7772-4a4e-b0a5-40ef180e58c4",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.12.77.191:34045",
-      "type": "vless",
-      "server": "103.12.77.191",
-      "port": 34045,
-      "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.12.77.48:34045",
-      "type": "vless",
-      "server": "103.12.77.48",
-      "port": 34045,
-      "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
       "tls": true,
       "flow": ""
     },
@@ -2286,11 +556,11 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 101.32.72.125:443",
+      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 165.154.55.105:20984",
       "type": "vless",
-      "server": "101.32.72.125",
-      "port": 443,
-      "uuid": "e258977b-e413-4718-a3af-02d75492c349",
+      "server": "165.154.55.105",
+      "port": 20984,
+      "uuid": "e0aafde7-37e2-486b-eb30-efa71166bf7e",
       "tls": true,
       "flow": ""
     },
@@ -2304,11 +574,20 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 165.154.55.105:20984",
+      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 161.248.31.198:443",
       "type": "vless",
-      "server": "165.154.55.105",
-      "port": 20984,
-      "uuid": "e0aafde7-37e2-486b-eb30-efa71166bf7e",
+      "server": "161.248.31.198",
+      "port": 443,
+      "uuid": "ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 163.61.74.121:443",
+      "type": "vless",
+      "server": "163.61.74.121",
+      "port": 443,
+      "uuid": "ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2",
       "tls": true,
       "flow": ""
     },
@@ -2328,23 +607,6 @@
       "uuid": "b3e950f6-b446-4fe1-808b-29e10a1c2479",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.245.237.124:58202",
-      "type": "vless",
-      "server": "103.245.237.124",
-      "port": 58202,
-      "uuid": "cca053d5-7123-4a87-83d6-babe4e9c8115",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.245.237.124:58202",
-      "type": "ss",
-      "server": "103.245.237.124",
-      "port": 58202,
-      "cipher": "auto",
-      "password": ""
     }
   ],
   "proxy_groups": [
@@ -2352,148 +614,23 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.195.236.24:443",
+        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.81.85.238:443",
+        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.155.72:28443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.155.72:38000",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.234:443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.155.72:28443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.127:443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.21:443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.163.218.2:989",
+        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.195.236.24:443",
+        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.127:443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.143.209.134:51348",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 160.19.78.75:443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.12.76.62:20002",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 112.197.26.106:45310",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.163.218.2:990",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.151.57.123:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.11:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.12:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.139:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.13:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.140:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.141:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.142:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.143:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.144:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.145:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.146:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.147:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.148:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.149:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.14:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.150:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.151:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.152:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.153:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.154:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.155:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.156:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.157:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.158:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.159:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.15:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.160:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.161:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.162:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.163:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.164:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.165:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.166:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.167:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.168:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.169:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.16:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.170:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.172:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.173:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.174:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.175:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.176:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.177:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.178:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.179:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.17:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.180:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.181:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.182:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.183:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.184:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.185:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.186:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.187:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.188:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.189:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.18:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.190:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.191:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.192:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.193:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.194:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.195:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.196:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.197:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.198:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.199:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.19:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.200:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.201:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.202:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.203:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.204:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.205:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.206:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.207:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.208:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.209:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.20:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.210:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.211:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.212:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.213:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.214:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.215:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.216:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.217:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.218:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.219:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.21:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.220:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.221:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.222:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.223:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.224:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.225:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.226:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.227:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.228:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.229:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.22:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.230:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.231:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.232:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.233:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.234:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.235:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.236:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.237:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.238:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.239:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.23:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.240:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.241:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.242:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.243:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.244:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.245:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.246:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.247:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.248:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.249:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.24:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.250:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.251:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.252:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.253:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.254:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.25:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.26:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.27:38388",
@@ -2503,144 +640,53 @@
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.31:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.32:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.33:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.34:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.35:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.36:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.37:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.38:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.39:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.40:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.41:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.42:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.43:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.44:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.45:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.46:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.47:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.48:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.49:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.4:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.50:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.51:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.52:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.53:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.54:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.55:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.56:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.57:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.58:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.59:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.60:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.61:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.62:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.63:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.64:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.65:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.66:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.67:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.68:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.69:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.70:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.71:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.72:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.73:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.74:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.75:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.76:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.77:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.78:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.79:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.80:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.154.9:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.101:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.102:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.103:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.104:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.105:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.106:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.107:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.10:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.121:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.122:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.133:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.13:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.145:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.18:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.19:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.20:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.21:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.224:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.22:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.236:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.23:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.24:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.25:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.26:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.28:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.30:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.32:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.33:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.35:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.37:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.42:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.51:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.52:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.60:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.62:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.71:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.76:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.84:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 221.132.29.208:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.238.213.96:989",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.15.91.171:52327",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 165.154.55.105:20984",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.21:28443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.228:28443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.234:28443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.81.85.238:443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.127:28000",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.21:28000",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.228:28000",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.234:28000",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.154.63.16:443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.66.191:443",
+        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.21:443",
+        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.228:28443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.66.192:443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.228:443",
+        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.234:28443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 160.30.21.105:443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 38.60.252.118:443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.179.173.232:17751",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.180.132.78:10022",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.127:28443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.166.185.11:443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.15.91.104:10102",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.70.13.72:443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.118.29.142:35730",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.153.254.231:80",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 160.191.164.164:8443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.173.155.30:443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.15.90.134:49678",
+        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 2.27.26.96:443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 160.25.74.227:443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 160.187.1.101:443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 160.25.75.40:443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.153.254.178:26211",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 160.22.16.187:443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 161.248.31.198:443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 161.248.31.35:443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 163.61.74.121:443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 160.30.54.63:443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 160.22.74.117:443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.12.77.191:34045",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.12.77.48:34045",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.12.77.78:34045",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 160.250.65.148:34045",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 38.54.30.204:34045",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 101.32.72.125:443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 171.244.142.193:8080",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 165.154.55.105:20984",
+        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 171.244.142.193:8080",
+        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 161.248.31.198:443",
+        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 163.61.74.121:443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 38.54.31.230:990",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 2.27.26.109:443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.245.237.124:58202",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.245.237.124:58202"
+        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 2.27.26.109:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,

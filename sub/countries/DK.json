@@ -8,6 +8,14 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.94:989",
+      "type": "ss",
+      "server": "192.36.27.94",
+      "port": 989,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 91.210.57.117:8443",
       "type": "ss",
       "server": "91.210.57.117",
@@ -19,14 +27,6 @@
       "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.116:989",
       "type": "ss",
       "server": "192.36.27.116",
-      "port": 989,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.94:989",
-      "type": "ss",
-      "server": "192.36.27.94",
       "port": 989,
       "cipher": "auto",
       "password": ""
@@ -72,14 +72,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - TROJAN 77.37.96.247:443",
-      "type": "trojan",
-      "server": "77.37.96.247",
-      "port": 443,
-      "password": "8r%3C%5B9%27l6hAO%238ZQi",
-      "tls": true
-    },
-    {
       "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - TROJAN 46.29.235.31:2053",
       "type": "trojan",
       "server": "46.29.235.31",
@@ -93,14 +85,6 @@
       "server": "193.180.209.21",
       "port": 443,
       "password": "rYuChHcwQZskq9E0zdoR",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - TROJAN 83.172.159.181:17860",
-      "type": "trojan",
-      "server": "83.172.159.181",
-      "port": 17860,
-      "password": "y0.qLgDed4ElASjr_3\u002BB7kTVb9np1",
       "tls": true
     },
     {
@@ -127,15 +111,6 @@
       "server": "38.180.214.162",
       "port": 443,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 92.113.146.87:443",
-      "type": "vless",
-      "server": "92.113.146.87",
-      "port": 443,
-      "uuid": "51a0af77-a60c-4d9b-81a4-f50e1b38d90b",
       "tls": true,
       "flow": ""
     },
@@ -272,14 +247,6 @@
       "uuid": "5eda9743-1674-4cde-adee-aae5d2cb363b",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 92.113.149.59:443",
-      "type": "ss",
-      "server": "92.113.149.59",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
     }
   ],
   "proxy_groups": [
@@ -287,22 +254,19 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.94:989",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 91.210.57.117:8443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.116:989",
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.94:989",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.79:989",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.197:38742",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.179:40282",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.211:43963",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 38.180.214.110:5600",
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - TROJAN 77.37.96.247:443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - TROJAN 46.29.235.31:2053",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - TROJAN 193.180.209.21:443",
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - TROJAN 83.172.159.181:17860",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 193.181.214.98:2083",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 199.232.40.11:80",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 38.180.214.162:443",
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 92.113.146.87:443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 199.232.40.117:80",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 193.180.213.30:2087",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 45.148.31.227:443",
@@ -317,8 +281,7 @@
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 93.92.112.233:443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.181:44539",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 81.17.159.32:443",
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 46.29.235.51:8443",
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 92.113.149.59:443"
+        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 46.29.235.51:8443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,

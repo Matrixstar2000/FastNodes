@@ -8,46 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - SS 157.22.128.7:443",
-      "type": "ss",
-      "server": "157.22.128.7",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - SS 94.154.128.132:443",
-      "type": "ss",
-      "server": "94.154.128.132",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - SS 189.74.97.43:2087",
-      "type": "ss",
-      "server": "189.74.97.43",
-      "port": 2087,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - SS 189.74.97.47:2087",
-      "type": "ss",
-      "server": "189.74.97.47",
-      "port": 2087,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - SS 93.174.164.89:11201",
-      "type": "ss",
-      "server": "93.174.164.89",
-      "port": 11201,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - SS 81.85.49.120:1080",
       "type": "ss",
       "server": "81.85.49.120",
@@ -64,6 +24,15 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - VLESS 189.74.97.43:2087",
+      "type": "vless",
+      "server": "189.74.97.43",
+      "port": 2087,
+      "uuid": "10f7eb2d-d96d-4778-9d36-aff11e9d6629",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - VLESS 81.162.54.249:8443",
       "type": "vless",
       "server": "81.162.54.249",
@@ -71,6 +40,15 @@
       "uuid": "497631c4-a1a4-45ff-a86a-f42873473bb6",
       "tls": true,
       "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - VLESS 189.74.97.47:2087",
+      "type": "vless",
+      "server": "189.74.97.47",
+      "port": 2087,
+      "uuid": "894fe9f0-b998-49c0-8003-a5007de921e1",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - VLESS 46.8.194.76:2053",
@@ -91,24 +69,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - VLESS 94.154.128.132:443",
-      "type": "vless",
-      "server": "94.154.128.132",
-      "port": 443,
-      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - VLESS 189.74.97.43:2087",
-      "type": "vless",
-      "server": "189.74.97.43",
-      "port": 2087,
-      "uuid": "10f7eb2d-d96d-4778-9d36-aff11e9d6629",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - VLESS 157.22.133.130:2087",
       "type": "vless",
       "server": "157.22.133.130",
@@ -118,13 +78,21 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - VLESS 189.74.97.47:2087",
+      "name": "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - VLESS 94.154.128.132:443",
       "type": "vless",
-      "server": "189.74.97.47",
-      "port": 2087,
-      "uuid": "894fe9f0-b998-49c0-8003-a5007de921e1",
+      "server": "94.154.128.132",
+      "port": 443,
+      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
       "tls": true,
       "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - SS 189.74.97.43:2087",
+      "type": "ss",
+      "server": "189.74.97.43",
+      "port": 2087,
+      "cipher": "auto",
+      "password": ""
     }
   ],
   "proxy_groups": [
@@ -132,20 +100,16 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - SS 157.22.128.7:443",
-        "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - SS 94.154.128.132:443",
-        "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - SS 189.74.97.43:2087",
-        "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - SS 189.74.97.47:2087",
-        "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - SS 93.174.164.89:11201",
         "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - SS 81.85.49.120:1080",
         "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - SS 157.22.133.130:2087",
+        "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - VLESS 189.74.97.43:2087",
         "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - VLESS 81.162.54.249:8443",
+        "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - VLESS 189.74.97.47:2087",
         "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - VLESS 46.8.194.76:2053",
         "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - VLESS 46.8.194.76:8443",
-        "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - VLESS 94.154.128.132:443",
-        "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - VLESS 189.74.97.43:2087",
         "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - VLESS 157.22.133.130:2087",
-        "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - VLESS 189.74.97.47:2087"
+        "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - VLESS 94.154.128.132:443",
+        "\uD83C\uDDFA\uD83C\uDDFF Uzbekistan - SS 189.74.97.43:2087"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,

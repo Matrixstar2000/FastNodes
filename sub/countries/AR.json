@@ -8,6 +8,23 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 131.255.6.88:443",
+      "type": "vless",
+      "server": "131.255.6.88",
+      "port": 443,
+      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 131.255.6.88:443",
+      "type": "ss",
+      "server": "131.255.6.88",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 154.205.154.200:11201",
       "type": "ss",
       "server": "154.205.154.200",
@@ -24,34 +41,10 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 190.103.176.123:8443",
-      "type": "ss",
-      "server": "190.103.176.123",
-      "port": 8443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 190.103.176.32:990",
-      "type": "ss",
-      "server": "190.103.176.32",
-      "port": 990,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 38.54.45.129:990",
       "type": "ss",
       "server": "38.54.45.129",
       "port": 990,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 190.103.176.32:989",
-      "type": "ss",
-      "server": "190.103.176.32",
-      "port": 989,
       "cipher": "auto",
       "password": ""
     },
@@ -64,94 +57,12 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 31.40.212.133:443",
-      "type": "trojan",
-      "server": "31.40.212.133",
-      "port": 443,
-      "password": "34210e77-a8e7-401c-887b-9ef81c1d6f5e",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 130.94.107.242:443",
-      "type": "trojan",
-      "server": "130.94.107.242",
-      "port": 443,
-      "password": "Bt-qzyomC7g37TaHwvPSV0.YrNSxFmlvIP",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 151.101.216.216:80",
-      "type": "trojan",
-      "server": "151.101.216.216",
-      "port": 80,
-      "password": "MiTiVPN",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 151.101.217.242:443",
-      "type": "trojan",
-      "server": "151.101.217.242",
-      "port": 443,
-      "password": "MiTiVPN",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 149.104.92.121:16478",
-      "type": "trojan",
-      "server": "149.104.92.121",
-      "port": 16478,
-      "password": "OWB0%3DfZqvn38gjhRteQKU",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 31.40.212.163:443",
-      "type": "trojan",
-      "server": "31.40.212.163",
-      "port": 443,
-      "password": "f25d1510-3763-4fcf-9804-86d6c1566629",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 149.33.19.105:2083",
-      "type": "trojan",
-      "server": "149.33.19.105",
-      "port": 2083,
-      "password": "q2jXRWncMA7pQren_VjQKhSQfoBWK_",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 130.94.107.171:443",
-      "type": "trojan",
-      "server": "130.94.107.171",
-      "port": 443,
-      "password": "s.wRSE4ANZp4%3D4h.%3DB_9Qbetw6XUc0V1SV",
-      "tls": true
-    },
-    {
       "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 15.220.121.237:443",
       "type": "trojan",
       "server": "15.220.121.237",
       "port": 443,
       "password": "your_password",
       "tls": true
-    },
-    {
-      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 149.33.19.143:443",
-      "type": "vless",
-      "server": "149.33.19.143",
-      "port": 443,
-      "uuid": "049b5a3c-3331-4a16-a12a-1f79c5b52d17",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 131.255.6.88:443",
-      "type": "vless",
-      "server": "131.255.6.88",
-      "port": 443,
-      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
-      "tls": true,
-      "flow": ""
     },
     {
       "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 149.33.19.136:2053",
@@ -163,22 +74,13 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 103.50.33.138:8443",
+      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 38.54.45.217:443",
       "type": "vless",
-      "server": "103.50.33.138",
-      "port": 8443,
-      "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
+      "server": "38.54.45.217",
+      "port": 443,
+      "uuid": "10b1dde8-2145-4480-82b6-6dbb11552b4f",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 38.180.186.202:443",
-      "type": "vless",
-      "server": "38.180.186.202",
-      "port": 443,
-      "uuid": "18b476f8-d1ca-4bf5-a397-c6fbf8ef4d41",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 151.101.216.11:80",
@@ -186,6 +88,15 @@
       "server": "151.101.216.11",
       "port": 80,
       "uuid": "3b940e86-7b0d-40da-acf1-12d334e41023",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 104.22.61.108:80",
+      "type": "vless",
+      "server": "104.22.61.108",
+      "port": 80,
+      "uuid": "435bda4c-fe5e-42c9-a3ad-15334943b38a",
       "tls": true,
       "flow": ""
     },
@@ -206,6 +117,41 @@
       "uuid": "afcac633-0e1a-46c3-bef2-cc01cc0097c8",
       "tls": true,
       "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 38.180.185.28:8443",
+      "type": "vless",
+      "server": "38.180.185.28",
+      "port": 8443,
+      "uuid": "eb162ab1-a006-4931-b1b3-8fc88a22b10e",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 130.94.107.171:443",
+      "type": "trojan",
+      "server": "130.94.107.171",
+      "port": 443,
+      "password": "s.wRSE4ANZp4%3D4h.%3DB_9Qbetw6XUc0V1SV",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 149.33.19.143:443",
+      "type": "vless",
+      "server": "149.33.19.143",
+      "port": 443,
+      "uuid": "25acff7f-3aff-4c68-bc5e-bbc68589f459",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 38.180.186.202:443",
+      "type": "vless",
+      "server": "38.180.186.202",
+      "port": 443,
+      "uuid": "5695ff2a-d23c-45f8-85f4-19e2a80314cc",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     }
   ],
   "proxy_groups": [
@@ -213,30 +159,23 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 131.255.6.88:443",
+        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 131.255.6.88:443",
         "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 154.205.154.200:11201",
         "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 154.205.154.184:11201",
-        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 190.103.176.123:8443",
-        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 190.103.176.32:990",
         "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 38.54.45.129:990",
-        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 190.103.176.32:989",
         "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 190.103.176.29:989",
-        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 31.40.212.133:443",
-        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 130.94.107.242:443",
-        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 151.101.216.216:80",
-        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 151.101.217.242:443",
-        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 149.104.92.121:16478",
-        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 31.40.212.163:443",
-        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 149.33.19.105:2083",
-        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 130.94.107.171:443",
         "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 15.220.121.237:443",
-        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 149.33.19.143:443",
-        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 131.255.6.88:443",
         "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 149.33.19.136:2053",
-        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 103.50.33.138:8443",
-        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 38.180.186.202:443",
+        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 38.54.45.217:443",
         "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 151.101.216.11:80",
+        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 104.22.61.108:80",
         "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 154.205.154.81:443",
-        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 38.54.45.184:443"
+        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 38.54.45.184:443",
+        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 38.180.185.28:8443",
+        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 130.94.107.171:443",
+        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 149.33.19.143:443",
+        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 38.180.186.202:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,

@@ -16,15 +16,6 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 217.177.44.252:443",
-      "type": "vless",
-      "server": "217.177.44.252",
-      "port": 443,
-      "uuid": "17540a16-a0dd-5694-7e1e-14e281ccc032",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 193.36.95.236:443",
       "type": "vless",
       "server": "193.36.95.236",
@@ -43,6 +34,15 @@
       "flow": "xtls-rprx-vision"
     },
     {
+      "name": "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 217.177.44.252:443",
+      "type": "vless",
+      "server": "217.177.44.252",
+      "port": 443,
+      "uuid": "17540a16-a0dd-5694-7e1e-14e281ccc032",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - SS 217.177.44.252:443",
       "type": "ss",
       "server": "217.177.44.252",
@@ -57,9 +57,9 @@
       "type": "url-test",
       "proxies": [
         "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - TROJAN 188.240.213.45:20071",
-        "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 217.177.44.252:443",
         "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 193.36.95.236:443",
         "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 193.36.95.237:443",
+        "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 217.177.44.252:443",
         "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - SS 217.177.44.252:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",

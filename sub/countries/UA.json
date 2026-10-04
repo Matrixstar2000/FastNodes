@@ -8,22 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 195.28.182.217:51348",
-      "type": "ss",
-      "server": "195.28.182.217",
-      "port": 51348,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 5.188.6.8:989",
-      "type": "ss",
-      "server": "5.188.6.8",
-      "port": 989,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 193.238.153.84:33817",
       "type": "ss",
       "server": "193.238.153.84",
@@ -120,10 +104,18 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 185.164.175.81:19999",
+      "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 195.28.182.217:51348",
       "type": "ss",
-      "server": "185.164.175.81",
-      "port": 19999,
+      "server": "195.28.182.217",
+      "port": 51348,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 5.188.6.8:989",
+      "type": "ss",
+      "server": "5.188.6.8",
+      "port": 989,
       "cipher": "auto",
       "password": ""
     },
@@ -420,6 +412,14 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 185.164.175.81:19999",
+      "type": "ss",
+      "server": "185.164.175.81",
+      "port": 19999,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 95.164.47.60:443",
       "type": "vless",
       "server": "95.164.47.60",
@@ -546,8 +546,6 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 195.28.182.217:51348",
-        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 5.188.6.8:989",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 193.238.153.84:33817",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 92.112.126.22:8442",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 95.164.47.60:443",
@@ -560,7 +558,8 @@
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 91.218.49.99:1080",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 147.78.3.93:990",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 176.103.53.105:990",
-        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 185.164.175.81:19999",
+        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 195.28.182.217:51348",
+        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 5.188.6.8:989",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 156.146.50.102:50695",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 95.164.45.70:8880",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 95.164.45.78:8880",
@@ -594,18 +593,9 @@
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 2.59.223.21:1",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 91.124.127.29:8880",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 173.242.63.235:8443",
+        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 185.164.175.81:19999",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 95.164.47.60:443",
-        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - HYSTERIA2 185.126.255.78:59494",
-        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - HYSTERIA2 92.112.23.216:28264",
-        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - HYSTERIA2 185.126.255.78:58944",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - HYSTERIA2 193.41.5.243:8443",
-        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - HYSTERIA2 146.19.56.21:24803",
-        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - HYSTERIA2 146.19.56.21:28165",
-        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - HYSTERIA2 146.19.56.21:57418",
-        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - HYSTERIA2 91.238.105.190:30939",
-        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - HYSTERIA2 92.112.126.147:50000",
-        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - HYSTERIA2 92.112.22.221:32711",
-        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - HYSTERIA2 92.112.22.208:54822",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 91.231.182.187:21341",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 91.231.182.187:20977",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 91.196.161.218:2054",

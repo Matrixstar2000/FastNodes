@@ -8,21 +8,13 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 45.9.156.24:443",
+      "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 89.44.197.77:15946",
       "type": "vless",
-      "server": "45.9.156.24",
-      "port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "server": "89.44.197.77",
+      "port": 15946,
+      "uuid": "8672bdcd-e331-464d-9ed8-93a242ca7d2e",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - TROJAN 95.164.33.62:443",
-      "type": "trojan",
-      "server": "95.164.33.62",
-      "port": 443,
-      "password": "0b1371aa-649d-41dc-9126-338c87936500",
-      "tls": true
     },
     {
       "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - SS 213.183.63.221:9001",
@@ -225,6 +217,22 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - TROJAN 95.164.33.62:443",
+      "type": "trojan",
+      "server": "95.164.33.62",
+      "port": 443,
+      "password": "0b1371aa-649d-41dc-9126-338c87936500",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - TROJAN 193.239.160.134:443",
+      "type": "trojan",
+      "server": "193.239.160.134",
+      "port": 443,
+      "password": "humanity",
+      "tls": true
+    },
+    {
       "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - TROJAN 104.152.48.205:443",
       "type": "trojan",
       "server": "104.152.48.205",
@@ -276,6 +284,15 @@
       "uuid": "20d7c485-5d24-49b5-a5cc-bb7a7daf9908",
       "tls": true,
       "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 45.9.156.24:443",
+      "type": "vless",
+      "server": "45.9.156.24",
+      "port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 45.9.156.27:443",
@@ -393,6 +410,15 @@
       "uuid": "9ae5940b-0278-403d-a1e1-9dddc47bdcf6",
       "tls": true,
       "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 13.140.29.45:443",
+      "type": "vless",
+      "server": "13.140.29.45",
+      "port": 443,
+      "uuid": "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 95.164.18.16:2052",
@@ -557,6 +583,15 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 104.152.48.248:443",
+      "type": "vless",
+      "server": "104.152.48.248",
+      "port": 443,
+      "uuid": "b940be1b-3998-45d2-bf7b-06e7b6c4987a",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 95.164.22.239:2003",
       "type": "vless",
       "server": "95.164.22.239",
@@ -672,15 +707,6 @@
       "uuid": "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88",
       "tls": true,
       "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 89.44.197.77:15946",
-      "type": "vless",
-      "server": "89.44.197.77",
-      "port": 15946,
-      "uuid": "8672bdcd-e331-464d-9ed8-93a242ca7d2e",
-      "tls": true,
-      "flow": ""
     },
     {
       "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - SS 213.183.63.60:9098",
@@ -851,15 +877,6 @@
       "port": 9020,
       "cipher": "auto",
       "password": ""
-    },
-    {
-      "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 95.164.34.105:2052",
-      "type": "vless",
-      "server": "95.164.34.105",
-      "port": 2052,
-      "uuid": "e994e1a7-5d8b-5520-b9ed-6c05b83e4660",
-      "tls": true,
-      "flow": ""
     },
     {
       "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 95.164.6.149:8880",
@@ -1072,15 +1089,6 @@
       "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 13.140.29.253:443",
       "type": "vless",
       "server": "13.140.29.253",
-      "port": 443,
-      "uuid": "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 13.140.29.45:443",
-      "type": "vless",
-      "server": "13.140.29.45",
       "port": 443,
       "uuid": "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6",
       "tls": true,
@@ -1329,8 +1337,7 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 45.9.156.24:443",
-        "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - TROJAN 95.164.33.62:443",
+        "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 89.44.197.77:15946",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - SS 213.183.63.221:9001",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - SS 89.44.197.77:15946",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - SS 95.164.89.142:58603",
@@ -1356,12 +1363,15 @@
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - SS 213.183.63.218:9008",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - SS 38.244.132.14:5499",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - SS 87.120.205.207:2025",
+        "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - TROJAN 95.164.33.62:443",
+        "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - TROJAN 193.239.160.134:443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - TROJAN 104.152.48.205:443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 95.164.6.214:443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 46.253.4.214:8080",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 87.120.196.15:443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 87.120.205.76:1002",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 193.148.59.178:443",
+        "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 45.9.156.24:443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 45.9.156.27:443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 45.9.156.28:443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 45.9.156.42:443",
@@ -1375,6 +1385,7 @@
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 194.110.87.8:443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 147.78.140.159:2096",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 136.175.82.85:18775",
+        "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 13.140.29.45:443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 95.164.18.16:2052",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 95.164.18.16:443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 95.164.18.29:2052",
@@ -1393,6 +1404,7 @@
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 192.145.31.5:443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 95.164.113.4:443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 45.91.193.247:8495",
+        "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 104.152.48.248:443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 95.164.22.239:2003",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 95.164.22.239:2501",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 95.164.51.24:2501",
@@ -1406,7 +1418,6 @@
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 147.78.140.168:8880",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 146.75.0.88:80",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 185.82.219.152:443",
-        "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 89.44.197.77:15946",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - SS 213.183.63.60:9098",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - SS 213.183.63.60:9064",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - SS 213.183.63.60:9085",
@@ -1428,7 +1439,6 @@
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - SS 213.183.63.69:9030",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - SS 213.183.63.69:9011",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - SS 213.183.63.69:9020",
-        "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 95.164.34.105:2052",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 95.164.6.149:8880",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 192.145.31.5:8443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 193.148.57.60:24444",
@@ -1453,7 +1463,6 @@
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 13.140.29.144:443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 13.140.29.144:8443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 13.140.29.253:443",
-        "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 13.140.29.45:443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 185.162.10.111:8443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 195.123.225.224:8443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 78.128.99.216:443",

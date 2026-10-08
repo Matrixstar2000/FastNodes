@@ -8,6 +8,15 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 64.176.15.110:2053",
+      "type": "vless",
+      "server": "64.176.15.110",
+      "port": 2053,
+      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDE8\uD83C\uDDF1 Chile - SS 37.235.52.112:989",
       "type": "ss",
       "server": "37.235.52.112",
@@ -105,15 +114,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 64.176.15.110:2053",
-      "type": "vless",
-      "server": "64.176.15.110",
-      "port": 2053,
-      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 64.176.19.77:80",
       "type": "vless",
       "server": "64.176.19.77",
@@ -189,6 +189,7 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 64.176.15.110:2053",
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - SS 37.235.52.112:989",
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - SS 64.176.2.21:8388",
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 64.176.15.205:80",
@@ -200,7 +201,6 @@
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 64.176.25.168:80",
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 64.176.24.232:80",
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 64.176.10.89:80",
-        "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 64.176.15.110:2053",
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 64.176.19.77:80",
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 64.176.15.134:80",
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 64.176.7.121:80",

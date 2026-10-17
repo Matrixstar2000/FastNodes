@@ -26,6 +26,14 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDE7\uD83C\uDDFE Belarus - SS 178.172.227.124:14430",
+      "type": "ss",
+      "server": "178.172.227.124",
+      "port": 14430,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDE7\uD83C\uDDFE Belarus - TROJAN 178.172.227.178:500",
       "type": "trojan",
       "server": "178.172.227.178",
@@ -205,6 +213,15 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDE7\uD83C\uDDFE Belarus - VLESS 93.125.18.5:443",
+      "type": "vless",
+      "server": "93.125.18.5",
+      "port": 443,
+      "uuid": "b94841c3-171f-4bf8-90d5-886f1bafeaea",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDE7\uD83C\uDDFE Belarus - SS 134.17.17.188:38729",
       "type": "ss",
       "server": "134.17.17.188",
@@ -217,23 +234,6 @@
       "type": "ss",
       "server": "134.17.17.36",
       "port": 26349,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDE7\uD83C\uDDFE Belarus - VLESS 93.125.18.5:443",
-      "type": "vless",
-      "server": "93.125.18.5",
-      "port": 443,
-      "uuid": "b94841c3-171f-4bf8-90d5-886f1bafeaea",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDE7\uD83C\uDDFE Belarus - SS 178.172.227.124:14430",
-      "type": "ss",
-      "server": "178.172.227.124",
-      "port": 14430,
       "cipher": "auto",
       "password": ""
     },
@@ -269,6 +269,7 @@
       "proxies": [
         "\uD83C\uDDE7\uD83C\uDDFE Belarus - VLESS 178.172.227.124:14430",
         "\uD83C\uDDE7\uD83C\uDDFE Belarus - VLESS 95.128.71.79:14430",
+        "\uD83C\uDDE7\uD83C\uDDFE Belarus - SS 178.172.227.124:14430",
         "\uD83C\uDDE7\uD83C\uDDFE Belarus - TROJAN 178.172.227.178:500",
         "\uD83C\uDDE7\uD83C\uDDFE Belarus - VLESS 178.172.227.124:10444",
         "\uD83C\uDDE7\uD83C\uDDFE Belarus - VLESS 189.74.124.83:443",
@@ -289,10 +290,9 @@
         "\uD83C\uDDE7\uD83C\uDDFE Belarus - VLESS 185.179.82.201:443",
         "\uD83C\uDDE7\uD83C\uDDFE Belarus - VLESS 62.182.102.93:443",
         "\uD83C\uDDE7\uD83C\uDDFE Belarus - VLESS 93.85.88.60:2053",
+        "\uD83C\uDDE7\uD83C\uDDFE Belarus - VLESS 93.125.18.5:443",
         "\uD83C\uDDE7\uD83C\uDDFE Belarus - SS 134.17.17.188:38729",
         "\uD83C\uDDE7\uD83C\uDDFE Belarus - SS 134.17.17.36:26349",
-        "\uD83C\uDDE7\uD83C\uDDFE Belarus - VLESS 93.125.18.5:443",
-        "\uD83C\uDDE7\uD83C\uDDFE Belarus - SS 178.172.227.124:14430",
         "\uD83C\uDDE7\uD83C\uDDFE Belarus - SS 46.243.183.2:443",
         "\uD83C\uDDE7\uD83C\uDDFE Belarus - SS 95.128.71.79:14430",
         "\uD83C\uDDE7\uD83C\uDDFE Belarus - SS 93.125.18.5:443"

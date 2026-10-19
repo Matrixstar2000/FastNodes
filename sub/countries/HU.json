@@ -17,14 +17,6 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDED\uD83C\uDDFA Hungary - TROJAN 185.225.68.232:443",
-      "type": "trojan",
-      "server": "185.225.68.232",
-      "port": 443,
-      "password": "humanity",
-      "tls": true
-    },
-    {
       "name": "\uD83C\uDDED\uD83C\uDDFA Hungary - VLESS 85.155.242.38:443",
       "type": "vless",
       "server": "85.155.242.38",
@@ -32,6 +24,14 @@
       "uuid": "6338c01a-310e-42c3-bf4f-2a20e161054b",
       "tls": true,
       "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDED\uD83C\uDDFA Hungary - TROJAN 185.225.68.232:443",
+      "type": "trojan",
+      "server": "185.225.68.232",
+      "port": 443,
+      "password": "humanity",
+      "tls": true
     },
     {
       "name": "\uD83C\uDDED\uD83C\uDDFA Hungary - VLESS 85.155.242.39:443",
@@ -250,8 +250,8 @@
       "type": "url-test",
       "proxies": [
         "\uD83C\uDDED\uD83C\uDDFA Hungary - VLESS 85.155.242.37:443",
-        "\uD83C\uDDED\uD83C\uDDFA Hungary - TROJAN 185.225.68.232:443",
         "\uD83C\uDDED\uD83C\uDDFA Hungary - VLESS 85.155.242.38:443",
+        "\uD83C\uDDED\uD83C\uDDFA Hungary - TROJAN 185.225.68.232:443",
         "\uD83C\uDDED\uD83C\uDDFA Hungary - VLESS 85.155.242.39:443",
         "\uD83C\uDDED\uD83C\uDDFA Hungary - VLESS 79.139.59.46:443",
         "\uD83C\uDDED\uD83C\uDDFA Hungary - VLESS 37.221.210.113:8443",

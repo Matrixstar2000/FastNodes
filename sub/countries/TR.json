@@ -8,6 +8,15 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 45.74.178.41:719",
+      "type": "vless",
+      "server": "45.74.178.41",
+      "port": 719,
+      "uuid": "ae9bcc43-5fd8-4891-b06e-1c93e2747ed9",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 93.114.98.23:443",
       "type": "vless",
       "server": "93.114.98.23",
@@ -15,15 +24,6 @@
       "uuid": "f5f293ed-e177-4c91-84df-ccf4c9a3e262",
       "tls": true,
       "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 62.133.63.45:8444",
-      "type": "vless",
-      "server": "62.133.63.45",
-      "port": 8444,
-      "uuid": "a346c521-7a7f-452b-9356-a4893feb5982",
-      "tls": true,
-      "flow": ""
     },
     {
       "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 176.53.17.241:1943",
@@ -332,15 +332,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 45.74.178.41:719",
-      "type": "vless",
-      "server": "45.74.178.41",
-      "port": 719,
-      "uuid": "ae9bcc43-5fd8-4891-b06e-1c93e2747ed9",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 213.156.152.234:13852",
       "type": "vless",
       "server": "213.156.152.234",
@@ -410,7 +401,7 @@
       "port": 8443,
       "uuid": "f5f293ed-e177-4c91-84df-ccf4c9a3e262",
       "tls": true,
-      "flow": "xtls-rprx-vision#2 @VEGAAS_VPN\uD83C\uDDF9\uD83C\uDDF7"
+      "flow": "xtls-rprx-vision#@GozargahAzad|\uD83C\uDDF9\uD83C\uDDF7"
     },
     {
       "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 153.52.92.239:11437",
@@ -470,6 +461,15 @@
       "server": "151.241.226.201",
       "port": 2053,
       "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 62.133.63.45:8444",
+      "type": "vless",
+      "server": "62.133.63.45",
+      "port": 8444,
+      "uuid": "a346c521-7a7f-452b-9356-a4893feb5982",
       "tls": true,
       "flow": ""
     },
@@ -851,15 +851,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 185.157.217.4:8443",
-      "type": "vless",
-      "server": "185.157.217.4",
-      "port": 8443,
-      "uuid": "7f11d97b-b29c-40bc-abfe-b8a2ad4b7dbb",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 185.181.209.217:443",
       "type": "vless",
       "server": "185.181.209.217",
@@ -1045,15 +1036,6 @@
       "uuid": "495c7195-85b8-498a-bf20-2ea9ce9175b5",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 212.87.198.97:443",
-      "type": "vless",
-      "server": "212.87.198.97",
-      "port": 443,
-      "uuid": "0dab10de-af72-483b-b5d8-7f30cab4d35c",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - TROJAN 195.162.69.238:9443",
@@ -1428,6 +1410,15 @@
       "uuid": "a27c7e29-9120-40c1-9cd5-3e6ac4d60577",
       "tls": true,
       "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 185.157.217.4:8443",
+      "type": "vless",
+      "server": "185.157.217.4",
+      "port": 8443,
+      "uuid": "7f11d97b-b29c-40bc-abfe-b8a2ad4b7dbb",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 185.181.209.211:443",
@@ -2414,8 +2405,8 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 45.74.178.41:719",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 93.114.98.23:443",
-        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 62.133.63.45:8444",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 176.53.17.241:1943",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 87.236.166.166:56137",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 87.236.166.178:56137",
@@ -2451,7 +2442,6 @@
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 136.148.64.242:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 167.104.219.12:35671",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 167.104.219.238:28391",
-        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 45.74.178.41:719",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 213.156.152.234:13852",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 203.202.232.211:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 141.98.118.70:443",
@@ -2462,11 +2452,13 @@
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 93.114.98.23:8443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 153.52.92.239:11437",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 185.123.100.56:8443",
+        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - HYSTERIA2 153.56.210.134:34121",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 206.1.103.204:22396",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 185.98.63.6:8443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 93.180.132.116:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 87.236.166.220:56137",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 151.241.226.201:2053",
+        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 62.133.63.45:8444",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 93.114.98.95:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 185.219.134.52:50003",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 141.98.118.70:443",
@@ -2513,7 +2505,6 @@
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 185.7.240.238:2096",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 87.120.106.130:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 87.120.106.130:8443",
-        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 185.157.217.4:8443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 185.181.209.217:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 188.132.183.15:2589",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 77.83.245.189:27414",
@@ -2536,7 +2527,6 @@
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 185.226.95.155:80",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 185.123.101.241:989",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 130.94.1.177:443",
-        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 212.87.198.97:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - TROJAN 195.162.69.238:9443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 194.93.63.227:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - SS 185.39.204.3:8098",
@@ -2579,6 +2569,7 @@
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 87.249.139.244:8443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 155.212.110.2:993",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 158.94.216.175:443",
+        "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 185.157.217.4:8443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 185.181.209.211:443",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 185.71.219.81:28454",
         "\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrkiye - VLESS 188.132.174.19:50567",

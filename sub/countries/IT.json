@@ -8,9 +8,33 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.63:19999",
+      "type": "ss",
+      "server": "202.50.253.63",
+      "port": 19999,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 82.102.26.117:33992",
+      "type": "ss",
+      "server": "82.102.26.117",
+      "port": 33992,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.45:19999",
       "type": "ss",
       "server": "202.50.253.45",
+      "port": 19999,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.36:19999",
+      "type": "ss",
+      "server": "202.50.253.36",
       "port": 19999,
       "cipher": "auto",
       "password": ""
@@ -24,17 +48,17 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.99:19999",
+      "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.72:19999",
       "type": "ss",
-      "server": "202.50.253.99",
+      "server": "202.50.253.72",
       "port": 19999,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.63:19999",
+      "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.99:19999",
       "type": "ss",
-      "server": "202.50.253.63",
+      "server": "202.50.253.99",
       "port": 19999,
       "cipher": "auto",
       "password": ""
@@ -56,25 +80,9 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.36:19999",
-      "type": "ss",
-      "server": "202.50.253.36",
-      "port": 19999,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.54:19999",
       "type": "ss",
       "server": "202.50.253.54",
-      "port": 19999,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.72:19999",
-      "type": "ss",
-      "server": "202.50.253.72",
       "port": 19999,
       "cipher": "auto",
       "password": ""
@@ -791,12 +799,13 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 82.102.26.117:44236",
-      "type": "ss",
-      "server": "82.102.26.117",
-      "port": 44236,
-      "cipher": "auto",
-      "password": ""
+      "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - VLESS 31.77.154.180:443",
+      "type": "vless",
+      "server": "31.77.154.180",
+      "port": 443,
+      "uuid": "7af8ad56-33ce-4f3d-ad15-ef32a71d67f7",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 57.131.21.102:8080",
@@ -1269,15 +1278,16 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.45:19999",
-        "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.27:19999",
-        "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.99:19999",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.63:19999",
+        "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 82.102.26.117:33992",
+        "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.45:19999",
+        "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.36:19999",
+        "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.27:19999",
+        "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.72:19999",
+        "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.99:19999",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 149.50.215.234:19999",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.18:19999",
-        "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.36:19999",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.54:19999",
-        "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.72:19999",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 202.50.253.81:19999",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - VLESS 57.131.21.102:8080",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - VLESS 2.59.21.188:443",
@@ -1361,7 +1371,7 @@
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - VLESS 80.211.133.156:443",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - VLESS 146.75.54.228:443",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 212.102.54.150:44539",
-        "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 82.102.26.117:44236",
+        "\uD83C\uDDEE\uD83C\uDDF9 Italy - VLESS 31.77.154.180:443",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 57.131.21.102:8080",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - VLESS 151.91.39.191:443",
         "\uD83C\uDDEE\uD83C\uDDF9 Italy - SS 185.213.20.227:990",

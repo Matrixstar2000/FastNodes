@@ -8,23 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDF2\uD83C\uDDE9 Moldova - SS 45.145.0.31:51348",
-      "type": "ss",
-      "server": "45.145.0.31",
-      "port": 51348,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 195.42.233.125:8880",
-      "type": "vless",
-      "server": "195.42.233.125",
-      "port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 185.236.232.123:8880",
       "type": "vless",
       "server": "185.236.232.123",
@@ -34,18 +17,43 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 89.35.14.30:443",
+      "name": "\uD83C\uDDF2\uD83C\uDDE9 Moldova - SS 45.145.0.31:51348",
+      "type": "ss",
+      "server": "45.145.0.31",
+      "port": 51348,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 185.236.232.189:8880",
       "type": "vless",
-      "server": "89.35.14.30",
+      "server": "185.236.232.189",
+      "port": 8880,
+      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF2\uD83C\uDDE9 Moldova - SS 185.242.86.156:54170",
+      "type": "ss",
+      "server": "185.242.86.156",
+      "port": 54170,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 89.35.14.31:443",
+      "type": "vless",
+      "server": "89.35.14.31",
       "port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "tls": true,
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 89.35.14.31:443",
+      "name": "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 89.35.14.30:443",
       "type": "vless",
-      "server": "89.35.14.31",
+      "server": "89.35.14.30",
       "port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "tls": true,
@@ -87,21 +95,21 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 195.42.233.125:8880",
+      "type": "vless",
+      "server": "195.42.233.125",
+      "port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDF2\uD83C\uDDE9 Moldova - SS 194.62.42.21:4040",
       "type": "ss",
       "server": "194.62.42.21",
       "port": 4040,
       "cipher": "auto",
       "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 185.236.232.189:8880",
-      "type": "vless",
-      "server": "185.236.232.189",
-      "port": 8880,
-      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
-      "tls": true,
-      "flow": ""
     },
     {
       "name": "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 176.120.72.63:38339",
@@ -776,12 +784,13 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF2\uD83C\uDDE9 Moldova - SS 185.242.86.156:54170",
-      "type": "ss",
-      "server": "185.242.86.156",
-      "port": 54170,
-      "cipher": "auto",
-      "password": ""
+      "name": "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 185.153.198.86:443",
+      "type": "vless",
+      "server": "185.153.198.86",
+      "port": 443,
+      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDF2\uD83C\uDDE9 Moldova - SS 89.35.14.30:443",
@@ -949,15 +958,6 @@
       "port": 2053,
       "cipher": "aes-256-gcm",
       "password": "PCnnH6SQSnfoS27"
-    },
-    {
-      "name": "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 185.153.198.86:443",
-      "type": "vless",
-      "server": "185.153.198.86",
-      "port": 443,
-      "uuid": "a1de0630-5786-48a0-84f6-dc6f2de10d6d",
-      "tls": true,
-      "flow": ""
     },
     {
       "name": "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 193.36.38.17:443",
@@ -1301,17 +1301,18 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDF2\uD83C\uDDE9 Moldova - SS 45.145.0.31:51348",
-        "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 195.42.233.125:8880",
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 185.236.232.123:8880",
-        "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 89.35.14.30:443",
+        "\uD83C\uDDF2\uD83C\uDDE9 Moldova - SS 45.145.0.31:51348",
+        "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 185.236.232.189:8880",
+        "\uD83C\uDDF2\uD83C\uDDE9 Moldova - SS 185.242.86.156:54170",
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 89.35.14.31:443",
+        "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 89.35.14.30:443",
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 89.35.14.33:443",
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 89.35.14.34:443",
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 144.31.131.241:8443",
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - SS 89.35.14.31:443",
+        "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 195.42.233.125:8880",
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - SS 194.62.42.21:4040",
-        "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 185.236.232.189:8880",
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 176.120.72.63:38339",
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - SS 192.121.87.89:989",
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 185.236.232.223:8880",
@@ -1389,7 +1390,7 @@
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 185.234.65.181:4423",
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 185.234.65.232:4423",
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 31.222.238.127:8043",
-        "\uD83C\uDDF2\uD83C\uDDE9 Moldova - SS 185.242.86.156:54170",
+        "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 185.153.198.86:443",
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - SS 89.35.14.30:443",
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - SS 89.35.14.34:443",
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - SS 178.175.134.2:989",
@@ -1409,7 +1410,6 @@
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 185.236.232.100:80",
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 89.35.14.32:443",
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - SS 185.236.233.111:2053",
-        "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 185.153.198.86:443",
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 193.36.38.17:443",
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 89.221.224.166:443",
         "\uD83C\uDDF2\uD83C\uDDE9 Moldova - VLESS 103.35.189.138:443",
